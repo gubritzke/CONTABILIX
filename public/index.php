@@ -242,7 +242,7 @@
                 <a href="javascript:;" class="bt bg-green-200 cl-white font-m">CENTRAL DE ATENDIMENTO</a>
             </div>
 
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-8 col-md-12 faqs">
                 <ul>
                     <li>
                         <a href="javascript:;" class="bg-gray-100 cl-gray-300 font-s">O que é a Contabilix? <i class="fa fa-sort-right icon cl-green-200"></i></a>
@@ -276,39 +276,25 @@
 
             <div class="col-lg-4 col-md-12">
                 <div class="box">
-<!--                    <img src="assets/img/home/blog/image.svg">-->
+                    <img src="assets/img/home/blog/image.png">
                     <p class="font-s f-weight-700">Como definir o capital social da empresa em 4 passos simples</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-12">
                 <div class="box">
-<!--                    <img src="assets/img/home/blog/image.svg">-->
+                    <img src="assets/img/home/blog/image.png">
                     <p class="font-s f-weight-700">Como definir o capital social da empresa em 4 passos simples</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-12">
                 <div class="box">
-<!--                    <img src="assets/img/home/blog/image.svg">-->
+                    <img src="assets/img/home/blog/image.png">
                     <p class="font-s f-weight-700">Como definir o capital social da empresa em 4 passos simples</p>
                 </div>
             </div>
 
-        </div>
-    </div>
-</div>
-
-<div id="na-midia" class="bg-gray-100">
-    <div class="content">
-        <div class="col-2 title-left" align="left">
-            <h2 class="font-g cl-gray-300 f-weight-400"><b>Na mídia</b> </h2>
-        </div>
-
-        <div class="col-10">
-            <div class="box">
-                <img src="assets/img/home/midia/logo-2.svg">
-            </div>
         </div>
     </div>
 </div>
