@@ -1,0 +1,279 @@
+
+#banner{
+    height: 565px;
+}
+#banner .banner-effect{
+    position: absolute;
+}
+#banner .banner-effect1{
+    right: 252px;
+    height: 565px;
+}
+#banner .banner-effect2{
+    right: 20px;
+    height: 565px;
+}
+#banner .text-banner{
+    margin-top: 75px;
+    position: relative;
+}
+#banner .text-banner .tiltle{
+    line-height: 43px;
+    margin-bottom: 36px;
+}
+#banner .text-banner .list{
+    margin: 0;
+}
+#banner .text-banner .list .bullet{
+    font-size: 25px;
+    margin-right: 5px;
+}
+#banner .text-banner .buttons{
+
+    margin-top: 30px;
+}
+#banner .text-banner .buttons a{
+
+    position: relative;
+}
+#banner .text-banner .buttons a span{
+    position: absolute;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    bottom: -19px;
+    padding: 0 14px;
+    border-radius: 3px;
+}
+#banner .text-banner .buttons a.bt-1 span{
+    left: calc(50% - 33.55px);
+}
+#banner .text-banner .buttons a.bt-2 span{
+    left: calc(50% - 56.97px);
+}
+#banner .text-banner .selo{
+    position: absolute;
+    bottom: 22px;
+}
+#banner .foto-banner img{
+    margin-top: -36px ;
+}
+#quem-somos .title{
+    margin: 64px 0 35px 0;
+}
+#quem-somos .pd-right:after{
+    content: "";
+    width: 1px;
+    height: 320px;
+    background: #D9D9D9;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+#quem-somos .pd-left{
+    padding-left: 60px;
+}
+#quem-somos .pd-left p{
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+#quem-somos .pd-left .localizacoes{
+    margin-top: 56px;
+    display: flex;
+}
+#quem-somos .pd-left .localizacoes span{
+    display: block;
+    margin-left: 75px;
+}
+#video{
+    height: 350px;
+    text-align: center;
+    padding: 124px 0 0 0;
+    margin-top: 55px;
+}
+#video .bg-video{
+    width: 70%;
+    border-radius: 9px;
+    margin: 0 auto;
+    height: 80%;
+}
+#video .bg-video iframe{
+    margin-top: -69px;
+}
+#ajuda{
+    display: block;
+    margin-top: 235px;
+}
+#ajuda .title{
+    margin-bottom: 24px;
+}
+#ajuda .boxes > div{
+    height: 207px;
+    margin-top: 31px;
+}
+#ajuda .boxes > div span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+    height: 40px;
+}
+#ajuda .boxes > div span img{
+    margin-right: 16px;
+}
+#ajuda hr{
+    background: #F6F6F6;
+    width: 100%;
+    height: 2px;
+}
+#atendimento{
+    margin-top: 50px;
+}
+#atendimento p{
+    margin-top: 35px;
+}
+#atendimento .box{
+    width: 39%;
+    position: relative;
+    height: 155px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+}
+#atendimento .box img{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+#atendimento .box span{
+    margin-top: 90px;
+    display: inline-block;
+    margin-left: 12px;
+}
+#atendimento .box p{
+    margin: 0;
+    margin-left: 12px;
+}
+#atendimento .bx-1{
+    position: absolute;
+    left: 0;
+    top: 26px;
+}
+#atendimento .bx-2{
+    position: absolute;
+    left: calc(50% - 25.5%);
+    top: 147px;
+}
+#atendimento .bx-3{
+    position: absolute;
+    right: 0;
+    top: 62px;
+}
+#atendimento .image1{
+    float: left;
+
+}
+#atendimento .image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#como-funciona{
+    text-align: center;
+    padding: 40px 0 150px 0;
+}
+#como-funciona .buttons a.active{
+    background: #009AE8;
+    z-index: 9;
+    position: relative;
+}
+#como-funciona .buttons{
+    margin-bottom: 45px;
+}
+#como-funciona .buttons a{
+    background: #D9D9D9;
+    margin: 0 -6px;
+}
+#como-funciona .box{
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    padding: 18px 19px;
+    text-align: left;
+    height: 288px;
+}
+#como-funciona .box > span{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 19px;
+}
+#como-funciona .box > span > span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    background: #00CA94;
+    width: 42px !important;
+    height: 42px !important;
+    align-items: center;
+    display: table;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 300px;
+    line-height: 41px;
+}
+#como-funciona .bx1{
+    margin-top: 105px;
+}
+#como-funciona .bx2{
+    margin-top: 180px;
+}
+
+
+#comentarios{
+    height: 650px;
+    padding: 45px 0;
+}
+#comentarios .title-left{
+    margin-bottom: 35px;
+}
+#comentarios .avaliation{
+    margin-right: 25px;
+}
+#comentarios .boxes-comentarios{
+    margin-top: 75px;
+}
+#comentarios .boxes-comentarios .box{
+    width: 750px;
+    height: 243px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    background: #F6F6F6;
+    padding: 45px 40px 22px 69px;
+    position: relative;
+}
+#comentarios .boxes-comentarios .box > img{
+    position: absolute;
+    left: 19px;
+    top: 30px;
+}
+#comentarios .boxes-comentarios span{
+    display: flex;
+    align-items: center;
+}
+#comentarios .boxes-comentarios span img{
+    margin-right: 15px;
+}
+#comentarios .boxes-comentarios span .font-s{
+
+}
+#comentarios .boxes-comentarios span .font-s .italic{
+    font-style: italic;
+}
+#faq {
+    margin: 70px;
+}
+#faq .title{
+    margin-bottom: 65px;
+}

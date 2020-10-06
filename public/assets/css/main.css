@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #000;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+input, button, textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1205px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bt {
+    padding: 18px 26px;
+    font-weight: 700;
+    line-height: 0;
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    align-items: center;
+}
+.bt .icon {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+.bt:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    padding: 0;
+    margin: 0;
+}
+/* FONTS */
+.font-pp{
+    font-size: 13px;
+}
+.font-s{
+    font-size: 15px;
+}
+.font-m{
+    font-size: 16px;
+}
+.font-g{
+    font-size: 24px;
+}
+.font-xg{
+    font-size: 38px;
+}
+.f-weight-700{
+    font-weight: 700;
+}
+.f-weight-400{
+    font-weight: 400;
+}
+/* COLORS */
+.cl-blue-900{
+    color: #02569E;
+}
+.cl-blue-800{
+    color: #0076C0;
+}
+.cl-blue-700{
+    color: #0087D4;
+}
+.cl-blue-600{
+    color: #009AE8;
+}
+.cl-blue-500{
+    color: #00A8F7;
+}
+.cl-blue-400{
+    color: #24B6F9;
+}
+.cl-blue-300{
+    color: #4DC3FA;
+}
+.cl-blue-200{
+    color: #80D4FC;
+}
+.cl-blue-100{
+    color: #B3E5FD;
+}
+.cl-green-400{
+    color: #1EBC99;
+}
+.cl-green-300{
+    color: #00CA94;
+}
+.cl-green-200{
+    color: #21DCB2;
+}
+.cl-green-100{
+    color: #94EAD1;
+}
+.cl-yellow-400{
+    color: #D5B135;
+}
+.cl-yellow-300{
+    color: #E7BF34;
+}
+.cl-yellow-200{
+    color: #F4CD3F;
+}
+.cl-yellow-100{
+    color: #FFDD63;
+}
+.cl-gray-400{
+    color: #515151;
+}
+.cl-gray-300{
+    color: #656868;
+}
+.cl-gray-200{
+    color: #D9D9D9;
+}
+.cl-gray-100{
+    color: #F6F6F6;
+}
+.cl-white{
+    color: #fff;
+}
+/* BGS */
+.bg-blue-900{
+    background-color: #02569E;
+}
+.bg-blue-800{
+    background-color: #0076C0;
+}
+.bg-blue-700{
+    background-color: #0087D4;
+}
+.bg-blue-600{
+    background-color: #009AE8;
+}
+.bg-blue-500{
+    background-color: #00A8F7;
+}
+.bg-blue-400{
+    background-color: #24B6F9;
+}
+.bg-blue-300{
+    background-color: #4DC3FA;
+}
+.bg-blue-200{
+    background-color: #80D4FC;
+}
+.bg-blue-100{
+    background-color: #B3E5FD;
+}
+.bg-green-400{
+    background-color: #1EBC99;
+}
+.bg-green-300{
+    background-color: #00CA94;
+}
+.bg-green-200{
+    background-color: #21DCB2;
+}
+.bg-green-100{
+    background-color: #94EAD1;
+}
+.bg-yellow-400{
+    background-color: #D5B135;
+}
+.bg-yellow-300{
+    background-color: #E7BF34;
+}
+.bg-yellow-200{
+    background-color: #F4CD3F;
+}
+.bg-yellow-100{
+    background-color: #FFDD63;
+}
+.bg-gray-400{
+    background-color: #515151;
+}
+.bg-gray-300{
+    background-color: #656868;
+}
+.bg-gray-200{
+    background-color: #D9D9D9;
+}
+.bg-gray-100{
+    background-color: #F6F6F6;
+}
+.bg-white{
+    background-color: #fff;
+}
+/* BORDERS */
+.bd-orange{
+    border: 1px solid #F09700;
+}
+.title:after{
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #24B6F9;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.title-left:after{
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #24B6F9;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    float: left;
+}
+/* HEADER */
+#header{
+    height: 90px;
+}
+#header .logo{
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+#header .logo img{
+    max-width:100%;
+    height:auto;
+}
+#header .menu{
+    display: flex;
+    align-items: center;
+}
+#header .menu ul{
+    display: block;
+    margin: 0 auto;
+}
+#header .menu ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+#header .menu-right{
+    display: flex;
+    align-items: center;
+}
+#header .menu-right ul > li{
+    position: relative;
+}
+#header .menu-right ul > li > a.bt{
+    padding: 16px 40px;
+    display: flex;
+}
+#header .menu-right ul > li > ul{
+    display: none;
+}
+#header .menu-right ul > li:hover > ul{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 40px;
+    width: 300px;
+    padding: 11px 0 0 0;
+}
+#header .menu-right ul > li > ul > li{
+    background: #fff;
+    padding: 8px 0 8px 13px;
+}
+#header .menu-right ul > li > ul > li:hover{
+    background: #1EBC99;
+    color: #fff;
+}
+#header .menu-right ul > li > ul > li:hover a{
+    color: #fff;
+}
+
+
+
