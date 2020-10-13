@@ -1,0 +1,245 @@
+
+#banner{
+    height: 565px;
+}
+#banner .banner-effect{
+    position: absolute;
+}
+#banner .banner-effect1{
+    right: 252px;
+    height: 565px;
+}
+#banner .banner-effect2{
+    right: 20px;
+    height: 565px;
+}
+#banner .text-banner{
+    margin-top: 75px;
+    position: relative;
+}
+#banner .text-banner .tiltle{
+    line-height: 43px;
+    margin-bottom: 36px;
+}
+#banner .text-banner .list{
+    margin: 0 0 8px 0;
+}
+#banner .text-banner .list .bullet{
+    font-size: 25px;
+    margin-right: 5px;
+}
+#banner .text-banner .buttons{
+
+    margin-top: 46px;
+}
+#banner .text-banner .buttons a{
+
+    position: relative;
+}
+#banner .text-banner .buttons a span{
+    position: absolute;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    bottom: -19px;
+    padding: 0 14px;
+    border-radius: 3px;
+}
+#banner .text-banner .buttons a.bt-1 span{
+    left: calc(50% - 33.55px);
+}
+#banner .text-banner .buttons a.bt-2 span{
+    left: calc(50% - 56.97px);
+}
+#banner .text-banner .selo{
+    position: absolute;
+    bottom: 17px;
+}
+#banner .text-banner .selo img{
+    margin-right: 15px;
+}
+#banner .foto-banner img{
+    margin-top: 22px;
+}
+#ajuda{
+    display: block;
+    margin-top: 59px;
+    margin-bottom: 45px;
+}
+#ajuda .title{
+    margin-bottom: 24px;
+}
+#ajuda .boxes > div{
+    height: 207px;
+    margin-top: 31px;
+}
+#ajuda .boxes > div span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+    height: 40px;
+}
+#ajuda .boxes > div span img{
+    margin-right: 16px;
+}
+#ajuda hr{
+    background: #F6F6F6;
+    width: 100%;
+    height: 2px;
+}
+#como-funciona{
+    text-align: center;
+    padding: 40px 250px 143px 250px;
+    margin-top: 156px;
+}
+#como-funciona .buttons a.active{
+    background: #009AE8;
+    z-index: 9;
+    position: relative;
+}
+#como-funciona .buttons{
+    margin-bottom: 45px;
+}
+#como-funciona .buttons a{
+    background: #D9D9D9;
+    margin: 0 -6px;
+}
+#como-funciona .box{
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    padding: 38px 19px;
+    text-align: left;
+    height: 205px;
+    position: relative;
+}
+#como-funciona .box img.arrows{
+    position: absolute;
+    left: 150px;
+}
+#como-funciona .box img.arrows.arw1{
+    top: -73px;
+}
+#como-funciona .box img.arrows.arw2{
+    bottom: -72px;
+}
+#como-funciona .box > span{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 19px;
+}
+#como-funciona .box > span > span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    background: #00CA94;
+    width: 42px !important;
+    height: 42px !important;
+    align-items: center;
+    display: table;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 300px;
+    line-height: 41px;
+}
+#como-funciona .bx1{
+    margin-top: 110px;
+}
+#como-funciona .bx2{
+    margin-top: 173px;
+}
+#como-funciona .box-icon img{
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+#como-funciona .box-icon p{
+    margin-top: 5px;
+}
+#planos .box-1{
+    margin-top: 45px;
+    display: block;
+    border-radius: 20px;
+    height: 445px;
+    margin-bottom: -40px;
+}
+#planos .box-1 .text-box-1{
+    text-align: center;
+    padding: 25px 100px;
+}
+#planos .box-1 .text-box-1 p{
+    margin-bottom: 0;
+    letter-spacing: 0.28em;
+}
+#planos .box-1 .text-box-1 span {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+}
+#planos .box-2{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 38px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+#planos .box-2 a{
+    position: relative;
+}
+#planos .box-2 a span{
+    position: absolute;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    bottom: -19px;
+    padding: 0 14px;
+    border-radius: 3px;
+}
+#planos .box-2 a span{
+    left: calc(50% - 56.97px);
+}
+#planos .box-2 p{
+    margin: 20px 25px;
+}
+#planos .box-2 .saiba{
+    display: block;
+    width: 65%;
+    margin: 41px auto 0 auto;
+    text-decoration: underline !important;
+}
+#contato{
+    padding: 150px 0;
+}
+#contato form{
+    padding: 0 65px 0 0;
+}
+#contato form span{
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+}
+#contato form p{
+    margin-bottom: 35px;
+}
+#contato label{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#contato label input{
+    width: 100%;
+    background: #F6F6F6;
+    border: none;
+    border-bottom: 1px solid rgba(101, 104, 104, 0.6);
+    padding-bottom: 12px;
+}
+#contato button{
+    float: left;
+    padding: 18px 50px;
+    margin-top: -8px;
+}

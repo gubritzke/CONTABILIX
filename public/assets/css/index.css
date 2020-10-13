@@ -179,6 +179,9 @@
 #como-funciona{
     text-align: center;
     padding: 40px 0 150px 0;
+    margin-top: 66px;
+    height: 584px;
+    margin-bottom: 230px;
 }
 #como-funciona .buttons a.active{
     background: #009AE8;
@@ -200,6 +203,17 @@
     padding: 18px 19px;
     text-align: left;
     height: 288px;
+    position: relative;
+}
+#como-funciona .box img.arrows{
+    position: absolute;
+    left: 150px;
+}
+#como-funciona .box img.arrows.arw1{
+    top: -73px;
+}
+#como-funciona .box img.arrows.arw2{
+    bottom: -72px;
 }
 #como-funciona .box > span{
     display: flex;
@@ -234,6 +248,8 @@
 #comentarios{
     height: 650px;
     padding: 45px 0;
+    background: url(../img/home/comentarios/bg-depoimentos.png);
+    background-position: center;
 }
 #comentarios .title-left{
     margin-bottom: 35px;
@@ -271,23 +287,6 @@
 #comentarios .boxes-comentarios span .font-s .italic{
     font-style: italic;
 }
-#faq {
-    margin: 70px;
-}
-#faq .title{
-    margin-bottom: 65px;
-}
-#faq .faqs a{
-    width: 100%;
-    display: block;
-    padding: 10px 0 10px 13px;
-    margin-bottom: 12px;
-}
-#faq .faqs span{
-    font-weight: 700;
-    margin-bottom: 8px;
-    display: block;
-}
 #blog .title{
     margin: 70px 0 50px 0;
 }
@@ -296,4 +295,28 @@
 }
 #blog{
     margin-bottom: 45px;
+}
+#na-midia{
+    padding: 40px 0;
+}
+#na-midia .box{
+    background: #EBEBEB;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 9px;
+    height: 200px;
+    width: 335px;
+    display: flex;
+    justify-content: center;
+}
+#na-midia .box img{
+    display: inline-block;
+}
+#na-midia .title-left{
+    align-items: center;
+    display: flex;
+}
+#na-midia .title-left:after{
+    position: absolute;
+    bottom: 81px;
 }

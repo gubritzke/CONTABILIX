@@ -22,7 +22,7 @@
                     <span class="cl-white font-m f-weight-700 selo"><img src="assets/img/home/banner/icon-garantia.svg" alt="5 anos de experiência"> 5 ANOS DE EXPERIÊNCIA NO MERCADO!</span>
                 </div>
                 <div class="col-lg-5 col-md-12 foto-banner">
-                    <img src="assets/img/home/banner/image-1.svg">
+                    <img src="assets/img/home/banner/image-1.png">
                 </div>
             </div>
         </div>
@@ -168,8 +168,10 @@
                 <p class="cl-gray-300 font-s">O processo de abertura é feito online, de forma fácil e gratuita, sendo cuidado por especialistas durante toda a duração.</p>
             </div>
             <div class="row">
+
                 <div class="col-3">
                     <div class="box bx1 bg-white cl-gray-300">
+                        <img src="assets/img/home/como-funciona/arco-1.png" class="arrows arw1">
                         <span class="font-m"><span>01</span> Preencha seu cadastro</span>
                         <p class="font-s">Informe alguns dados iniciais de sua empresa e realize o crédito de abertura (este voltará como desconto já na sua primeira mensalidade).
                         </p>
@@ -177,12 +179,15 @@
                 </div>
                 <div class="col-3">
                     <div class="box bx2 bg-white cl-gray-300">
+
+                        <img src="assets/img/home/como-funciona/arco-2.png" class="arrows arw2">
                         <span class="font-m"><span>02</span> Cuidamos de toda a documentação</span>
                         <p class="font-s">Nossos contadores irão validar seus dados e lhe sugerir o tipo de empresa que fará você pagar o mínimo de impostos quando começar a faturar. Você aprovando, lhe enviamos os documentos digitalmente.</p>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="box bx1 bg-white cl-gray-300">
+                        <img src="assets/img/home/como-funciona/arco-1.png" class="arrows arw1">
                         <span class="font-m"><span>03</span> Protocolo nos órgãos</span>
                         <p class="font-s">A documentação deverá ser impressa, assinada e protocolada na Junta Comercial ou Cartório, caso não deseje sair de casa, basta nos devolver digitalmente junto com uma procuração que protocolamos por você.</p>
                     </div>
@@ -229,42 +234,7 @@
     </div>
 </div>
 
-<div id="faq">
-    <div class="content">
-        <div class="row">
-            <div class="col-12 title" align="center">
-                <h2 class="font-g cl-gray-300 f-weight-400"><b>Perguntas e respostas</b> </h2>
-            </div>
-            <div class="col-lg-4 col-md-12 boz">
-                <img src="assets/img/home/faq/image.svg">
-                <span class="font-g cl-blue-700 f-weight-700">Ainda está com dúvidas?</span>
-                <p class="cl-gray-300 font-s">Acesse nossa Central de atendimento e tire suas dúvidas. Clique abaixo:</p>
-                <a href="javascript:;" class="bt bg-green-200 cl-white font-m">CENTRAL DE ATENDIMENTO</a>
-            </div>
-
-            <div class="col-lg-8 col-md-12 faqs">
-                <ul>
-                    <li>
-                        <a href="javascript:;" class="bg-gray-100 cl-gray-300 font-s">O que é a Contabilix? <i class="fa fa-sort-right icon cl-green-200"></i></a>
-                        <div class="text">
-                            <span class="font-s cl-blue-400">Somos um Escritório de Contabilidade Online.</span>
-                            <p class="cl-gray-300 font-s">Graças a automatização de todas as tarefas executadas nos escritórios tradicionais, conseguimos ter preços incríveis para a contabilidade da sua empresa.
-                                Disponibilizamos online suas Demonstrações Contábeis, tais como: Folha de Pagamentos, Impostos, Livro Caixa, Relatórios e outros, além de realizar todas as obrigações legais da sua empresa perante todas as esferas do governo.</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="javascript:;" class="bg-gray-100 cl-gray-300 font-s">O que é a Contabilix? <i class="fa fa-sort-right icon cl-green-200"></i></a>
-                        <div class="text">
-                            <span class="font-s cl-blue-400"></span>
-                            <p class="cl-gray-300 font-s"></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include "partials/faq.phtml" ?>
 
 <div id="blog">
     <div class="content">
@@ -298,5 +268,21 @@
         </div>
     </div>
 </div>
+
+<div id="na-midia" class="bg-gray-100">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-2 title-left" align="left">
+                            <h2 class="font-g cl-gray-300 f-weight-400"><b>Na mídia</b> </h2>
+                        </div>
+
+                        <div class="col-10">
+                            <div class="box">
+                                <img src="assets/img/home/midia/logo-2.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 <?php include "partials/footer.phtml" ?>
