@@ -1,0 +1,37 @@
+#calculadora .se-vc{
+    margin-bottom: 20px;
+    display: block;
+}
+#calculadora {
+    padding: 30px 0 0 0;
+}
+#quanto-custa{
+    margin: 170px 0 100px 0;
+}
+#quanto-custa .greenbox{
+    padding: 25px 35px;
+    border-radius: 8px;
+}
+#quanto-custa span{
+    font-size: 31px;
+}
+#quanto-custa img{
+    float: right;
+}
+#quanto-custa .bg-gratis{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+    padding: 5px 35px ;
+    margin: 20px 0 20px -75px;
+    border-radius: 5px;
+}
+#quanto-custa .bg-gratis span{
+    font-size: 38px;
+}
+.buttons{
+    margin-top: 35px;
+}
+.buttons a{
+    padding: 20px 55px;
+}

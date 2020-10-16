@@ -1,0 +1,120 @@
+@media (max-width: 750px){
+    #banner {
+        height: 680px;
+    }
+    #banner .text-banner .buttons a {
+        text-align: center;
+        padding: 32px 61px;
+        font-size: 22px;
+    }
+    #banner .text-banner {
+        margin-top: 35px;
+    }
+    #banner .text-banner .selo {
+        bottom: -105px;
+    }
+    #banner .text-banner .buttons a.bt-1 span {
+        left: calc(50% - 44.08px);
+    }
+    #banner .text-banner .buttons a.bt-2 span {
+        left: calc(50% - 80.1px);
+    }
+    #quem-somos .pd-left .localizacoes span {
+        display: block;
+        margin-left: 129px;
+    }
+    #banner .text-banner .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 51px;
+    }
+    #banner .text-banner .tiltle {
+        margin-bottom: 36px;
+        margin-top: 25px;
+    }
+    #banner .text-banner .list {
+        margin: 0 0 25px 0;
+    }
+    #banner .banner-effect2 {
+        right: -135px;
+        height: 565px;
+        top: 155px;
+    }
+    #banner .banner-effect1 {
+        right: 86px;
+        height: 565px;
+        top: 155px;
+    }
+    #o-que-e .pd-left {
+        padding-left: 20px;
+    }
+    #como-funciona{
+        margin-bottom: 0;
+        padding: 40px 0 350px 0;
+    }
+    #como-funciona .buttons a {
+        width: 50%;
+        padding: 35px 0;
+        font-size: 21px;
+    }
+    #como-funciona .box img.arrows{
+        display: none;
+    }
+    #como-funciona .box{
+        margin-top: 35px;
+        width: 90%;
+        display: inline-block;
+        height: 305px;
+    }
+    #comentarios .boxes-comentarios .box {
+        width: 700px;
+        height: 260px;
+    }
+    #comentarios .boxes-comentarios {
+        margin-top: 0;
+    }
+    #comentarios .boxes-comentarios .box span{
+        display: none;
+    }
+    #formulario .form {
+        padding: 0;
+    }
+    #formulario .form label{
+        width: 100%;
+    }
+    #formulario .form label input{
+        width: 100%;
+    }
+    #formulario form button {
+        margin-top: 25px;
+        padding: 31px 55px;
+    }
+    #comentarios .box span img{
+        width: auto;
+    }
+    #comentarios .box {
+        height: 213px;
+    }
+    #comentarios .box span{
+        font-size: 30px;
+    }
+    #comentarios {
+        height: 760px;
+        padding: 45px 0;
+        background: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #0076C0;
+    }
+    #comentarios .buttons {
+        padding: 0;
+        margin: 25px 0 45px 0;
+    }
+    #comentarios .buttons a {
+        margin-right: 0;
+        width: 49.5%;
+        text-align: center;
+        font-size: 18px;
+        padding: 28px 0;
+    }
+}

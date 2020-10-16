@@ -5,38 +5,71 @@
 
 $( function(){
 	
+	$('.owl-carousel-1').owlCarousel({
+		items: 1,
+		loop:true,
+		nav:true,
+		autoplay: true,
+		navText: ["",""],
+		dots: false,
+		responsive:{
+			0:{
+				items:1
+			}
+		}
+	});
 
-	
+	$('.owl-carousel-coments').owlCarousel({
+		items: 1,
+		loop:true,
+		nav:true,
+		autoplay: true,
+		navText: ["",""],
+		dots: true,
+		dotsData: true,
+		responsive:{
+			0:{
+				items:1
+			}
+		}
+	});
+
+	$('.owl-carousel-2').owlCarousel({
+		items: 1,
+		loop:true,
+		nav:true,
+		autoplay: true,
+		navText: ["",""],
+		dots: false,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+
 	jQuery(function (){
 		jQuery(window).scroll(function (){
-		    if (jQuery(this).scrollTop() > 200) {
-		    	$("#o-que-e img").addClass("animated fadeInUp efct-ative");
-		    };
-		    if ( $(window).width() > 751) {
-			    if (jQuery(this).scrollTop() > 500) {
-			    	$("#recursos .box-pd").addClass("animated fadeInUp efct-ative");
-			    };
-		    }
-		    if (jQuery(this).scrollTop() > 1600) {
-		    	$("#atuamos .box").addClass("animated zoomIn efct-ative");
-		    };
+			if (jQuery(this).scrollTop() > 200) {
+				$("#o-que-e img").addClass("animated fadeInUp efct-ative");
+			};
+			if ( $(window).width() > 751) {
+				if (jQuery(this).scrollTop() > 500) {
+					$("#recursos .box-pd").addClass("animated fadeInUp efct-ative");
+				};
+			}
+			if (jQuery(this).scrollTop() > 1600) {
+				$("#atuamos .box").addClass("animated zoomIn efct-ative");
+			};
 		});
 	});
-	
-	$('.owl-carousel').owlCarousel({
-		items: 1,
-	    loop:true,
-	    nav:true,
-	    autoplay: true,
-        navText: ["",""],
-        dots: false,
-	    responsive:{
-	        0:{
-	            items:1
-	        }
-	    }
-	})
-	
+
 	// abre - MODAL PORTFOLIO
 	$('#faq .item').bind('click', function(){
         
@@ -74,4 +107,9 @@ $( function(){
 
 
 
+});
+
+$(document).on('click','.button-faq', function() {
+	$(this).next('.text').toggleClass('active');
+	$(this).toggleClass('active');
 });

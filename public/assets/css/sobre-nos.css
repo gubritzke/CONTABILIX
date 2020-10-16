@@ -1,0 +1,97 @@
+#quem-somos{
+    margin-top: 40px;
+}
+#quem-somos .title{
+    margin: 64px 0 35px 0;
+}
+#quem-somos .pd-right:after{
+    content: "";
+    width: 1px;
+    height: 320px;
+    background: #D9D9D9;
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+#quem-somos .pd-left p{
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+#quem-somos .pd-left p a{
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+#video{
+    text-align: center;
+    padding: 55px 0 0 0;
+}
+#video .bg-oque{
+    background: url("../img/empresa/o-que-e/image.svg");
+    width: 311px;
+    height: 391px;
+    position: relative;
+    float: left;
+}
+#video span.bg-span{
+    position: absolute;
+    left: 132px;
+    top: 152px;
+    width: 292px;
+    line-height: 41px;
+    text-align: left;
+}
+#video .bg-video{
+    width: 80%;
+    height: 450px;
+    padding: 30px 29px;
+    position: relative;
+}
+#video .bg-video iframe{
+    position: absolute;
+    float: right;
+    margin-top: 16px;
+    right: -130px;
+    width: 640px;
+}
+#video .half-back{
+    float: left;
+}
+#atendimento{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#atendimento .localizacoes{
+    margin-top: 56px;
+    display: flex;
+}
+#atendimento .localizacoes span{
+    display: block;
+    margin-left: 75px;
+}
+#servicos{
+    padding: 70px 0 0px 0;
+}
+#servicos .box{
+    height: 167px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+}
+#servicos .box img{
+    position: absolute;
+    left: 37px;
+    top: 17px;
+}
+#servicos .box.bx-down{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+#servicos .box.bx-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#servicos p{
+    margin: 50px 0 50px 0;
+}

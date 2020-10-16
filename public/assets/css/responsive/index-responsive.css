@@ -1,0 +1,124 @@
+@media (max-width: 750px){
+    #banner {
+        height: 680px;
+    }
+    #banner .text-banner .buttons a {
+        width: 48%;
+        text-align: center;
+        padding: 32px 0;
+        font-size: 22px;
+    }
+    #banner .text-banner {
+        margin-top: 35px;
+    }
+    #banner .text-banner .selo {
+        bottom: -105px;
+    }
+    #banner .text-banner .buttons a.bt-1 span {
+        left: calc(50% - 44.08px);
+    }
+    #banner .text-banner .buttons a.bt-2 span {
+        left: calc(50% - 80.1px);
+    }
+    #quem-somos .pd-left .localizacoes span {
+        display: block;
+        margin-left: 129px;
+    }
+    #banner .text-banner .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 51px;
+    }
+    #banner .text-banner .tiltle {
+        margin-bottom: 36px;
+        margin-top: 25px;
+    }
+    #banner .text-banner .list {
+        margin: 0 0 25px 0;
+    }
+    #banner .banner-effect2 {
+        right: -135px;
+        height: 565px;
+        top: 155px;
+    }
+    #banner .banner-effect1 {
+        right: 86px;
+        height: 565px;
+        top: 155px;
+    }
+    #video .bg-video {
+        width: 100%;
+    }
+    #video .bg-video iframe {
+        width: 675px;
+    }
+    #atendimento {
+        margin-top: 50px;
+        padding-bottom: 312px;
+    }
+    #como-funciona{
+        margin-bottom: 215px;
+    }
+    #como-funciona .buttons a {
+        width: 50%;
+        padding: 35px 0;
+        font-size: 21px;
+    }
+    #como-funciona .box img.arrows{
+        display: none;
+    }
+    #como-funciona .box{
+        margin-top: 35px;
+        width: 90%;
+        display: inline-block;
+        height: 305px;
+    }
+    #comentarios .boxes-comentarios .box {
+        width: 700px;
+        height: 260px;
+    }
+    #comentarios .boxes-comentarios {
+        margin-top: 43px;
+    }
+    #comentarios .boxes-comentarios .box span{
+        display: none;
+    }
+    #blog .box{
+        text-align: center;
+    }
+    #ajuda .box{
+        width: 100%;
+        padding-left: 45px;
+        text-align: center;
+    }
+    #ajuda .box img{
+        width: auto;
+    }
+    #ajuda .boxes{
+        height: 260px;
+    }
+    #ajuda .boxes > div span{
+        justify-content: center;
+    }
+    #blog img {
+        width: 100%;
+    }
+    #na-midia h2{
+        text-align: center;
+        display: block;
+        margin: 0 auto 45px auto;
+    }
+    #na-midia .title-left:after {
+        position: absolute;
+        bottom: 30px;
+        left: calc(50% - 20px);
+    }
+    #como-funciona .boxcf2 img.arrows{
+        display: none;
+    }
+    #como-funciona .boxcf2{
+        margin: 40px 0 0 0;
+        width: 90%;
+        display: inline-block;
+    }
+}

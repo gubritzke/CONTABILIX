@@ -1,0 +1,18 @@
+@media (max-width: 750px){
+    #calculadora {
+        padding: 30px 0 40px 0;
+    }
+    #quanto-custa{
+        text-align: center !important;
+    }
+    #quanto-custa .bg-gratis{
+        display: block;
+    }
+    #quanto-custa p{
+        display: block;
+        width: 100%;
+    }
+    .buttons a {
+        padding: 27px 116px;
+    }
+}

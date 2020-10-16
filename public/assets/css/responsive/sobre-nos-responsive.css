@@ -1,0 +1,21 @@
+@media (max-width: 750px) {
+    #quem-somos img {
+        margin-top: 25px;
+    }
+
+    #video .half-back {
+        display: none;
+    }
+
+    #video .bg-video {
+        width: 100%;
+    }
+
+    #video .bg-video iframe {
+        width: 100%;
+        right: 0;
+    }
+    .mb-boxes{
+        margin-left: 0;
+    }
+}

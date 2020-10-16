@@ -1,0 +1,106 @@
+@media (max-width: 750px){
+    #banner {
+        height: 680px;
+    }
+    #banner .text-banner .buttons a {
+        text-align: center;
+        padding: 32px 61px;
+        font-size: 22px;
+    }
+    #banner .text-banner {
+        margin-top: 35px;
+    }
+    #banner .text-banner .selo {
+        bottom: -94px;
+    }
+    #banner .text-banner .buttons a.bt-1 span {
+        left: calc(50% - 44.08px);
+    }
+    #banner .text-banner .buttons a.bt-2 span {
+        left: calc(50% - 80.1px);
+    }
+    #blog .box{
+        text-align: center;
+    }
+    #ajuda .box{
+        width: 100%;
+        padding-left: 45px;
+        text-align: center;
+    }
+    #ajuda .box img{
+        width: auto;
+    }
+    #ajuda .boxes{
+        height: 260px;
+    }
+    #ajuda .boxes > div span{
+        justify-content: center;
+    }
+    #como-funciona .box img.arrows{
+        display: none;
+    }
+    #banner .text-banner .list {
+        margin: 0 0 23px 0;
+    }
+    #como-funciona .box{
+        margin: 40px 0 0 0;
+        width: 90%;
+        display: inline-block;
+    }
+    #planos .box-1 {
+        margin-bottom: 295px;
+    }
+    #planos{
+        margin-bottom: 60px;
+    }
+    #planos .box-2 a {
+        position: relative;
+        font-size: 27px;
+        padding: 23px 33px;
+    }
+    #planos .box-2 a {
+        position: relative;
+        font-size: 27px;
+        padding: 26px 33px;
+    }
+    #planos .box-2 a span {
+        left: calc(50% - 104.93px);
+        font-size: 26px;
+        padding: 16px 25px;
+        line-height: 0;
+        bottom: -24px;
+    }
+    #planos .box-2 .saiba{
+        width: 100%;
+    }
+    #contato {
+        padding: 88px 0;
+    }
+    #contato form {
+        padding: 0 25px;
+    }
+    #como-funciona{
+        padding: 0px 0 143px 0;
+        margin: 50px 0 0 0;
+    }
+    #como-funciona .bx1 {
+        margin-top: 35px;
+        width: 95%;
+        display: inline-block;
+    }
+
+    #como-funciona .bx2 {
+        margin-top: 35px;
+    }
+    #como-funciona .boxcf2 img.arrows{
+        display: none;
+    }
+    #contato button {
+        float: left;
+        padding: 27px 50px;
+        margin-top: -8px;
+        display: block;
+        width: 100%;
+    }
+
+}

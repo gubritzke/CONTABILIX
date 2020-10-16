@@ -1,0 +1,295 @@
+
+#banner{
+    height: 565px;
+}
+#banner .banner-effect{
+    position: absolute;
+}
+#banner .banner-effect1{
+    right: 252px;
+    height: 565px;
+}
+#banner .banner-effect2{
+    right: 20px;
+    height: 565px;
+}
+#banner .text-banner{
+    margin-top: 75px;
+    position: relative;
+    padding-right: 70px;
+}
+#banner .text-banner .tiltle{
+    line-height: 43px;
+    margin-bottom: 36px;
+}
+#banner .text-banner .list{
+    margin: 0 0 8px 0;
+}
+#banner .text-banner .list .bullet{
+    font-size: 25px;
+    margin-right: 5px;
+}
+#banner .text-banner .buttons{
+
+    margin-top: 46px;
+}
+#banner .text-banner .buttons a{
+
+    position: relative;
+}
+#banner .text-banner .buttons a span{
+    position: absolute;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    bottom: -19px;
+    padding: 0 14px;
+    border-radius: 3px;
+}
+#banner .text-banner .buttons a.bt-1 span{
+    left: calc(50% - 33.55px);
+}
+#banner .text-banner .buttons a.bt-2 span{
+    left: calc(50% - 56.97px);
+}
+#banner .text-banner .selo{
+    position: absolute;
+    bottom: 17px;
+}
+#banner .text-banner .selo img{
+    margin-right: 15px;
+}
+#banner .foto-banner img{
+    margin-top: 22px;
+}
+#o-que-e{
+    padding: 60px 0 0 0;
+}
+#o-que-e .bg-oque{
+    background: url("../img/empresa/o-que-e/image.svg");
+    width: 311px;
+    height: 391px;
+    position: relative;
+}
+#o-que-e span.bg-span{
+    position: absolute;
+    left: 110px;
+    top: 122px;
+    width: 289px;
+    line-height: 41px;
+}
+#o-que-e .title-left{
+    display: block;
+    padding: 0;
+}
+#o-que-e .pd-left{
+    padding-left: 80px;
+}
+#o-que-e p{
+    display: block;
+    margin-top: 65px;
+}
+#como-funciona{
+    text-align: center;
+    padding: 40px 0 400px 0;
+    margin-top: 66px;
+}
+#como-funciona .box{
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    padding: 18px 19px;
+    text-align: left;
+    height: 288px;
+    position: relative;
+    width: 95%;
+}
+#como-funciona .box img.arrows{
+    position: absolute;
+    left: 150px;
+}
+#como-funciona .box img.arrows.arw1{
+    top: -73px;
+}
+#como-funciona .box img.arrows.arw2{
+    bottom: -72px;
+}
+#como-funciona .box > span{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 19px;
+}
+#como-funciona .box > span > span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    background: #00CA94;
+    width: 42px !important;
+    height: 42px !important;
+    align-items: center;
+    display: table;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 300px;
+    line-height: 41px;
+}
+#como-funciona .bx1{
+    margin-top: 105px;
+}
+#como-funciona .bx2{
+    margin-top: 180px;
+}
+#formulario{
+    padding: 45px 0;
+    margin-top: -320px;
+    margin-bottom: 40px;
+}
+#formulario .bg-forms{
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+#formulario .form{
+    padding-left: 45px;
+}
+#formulario p{
+    font-size: 30px;
+    margin: 0;
+    line-height: 36px;
+}
+#formulario form{
+    margin-top: 35px;
+}
+#formulario form label{
+    width: 97%;
+}
+#formulario form label input{
+    width: 97%;
+    padding: 10px 0 10px 15px;
+    border: none;
+    margin-bottom: 5px;
+}
+#formulario form button{
+    margin-top: 25px;
+}
+#comentarios{
+    height: 650px;
+    padding: 45px 0;
+    background: url(../img/empresa/banner/bg2.png);
+    background-position: center;
+}
+#comentarios .pads{
+    display: none;
+}
+#comentarios .pads.active{
+    display: block;
+}
+#comentarios .title-left{
+    margin-bottom: 35px;
+}
+#comentarios .avaliation{
+    margin-right: 25px;
+}
+#comentarios .boxes-comentarios{
+    margin-top: 20px;
+}
+#comentarios .boxes-comentarios .box{
+    width: 750px;
+    height: 243px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    background: #F6F6F6;
+    padding: 45px 40px 22px 69px;
+    position: relative;
+}
+#comentarios .boxes-comentarios .box > img{
+    position: absolute;
+    left: 19px;
+    width: auto;
+    top: 30px;
+}
+#comentarios .boxes-comentarios span{
+    display: flex;
+    align-items: center;
+}
+#comentarios .boxes-comentarios span img{
+    margin-right: 15px;
+    width: auto;
+}
+#comentarios .boxes-comentarios span .font-s{
+
+}
+#comentarios .boxes-comentarios span .font-s .italic{
+    font-style: italic;
+}
+#comentarios .buttons{
+    margin-bottom: 35px;
+    display: block;
+}
+#comentarios .buttons a{
+    margin-right: 20px;
+}
+#comentarios .buttons a.active {
+    background: #21DCB2;
+    border: 2px solid #21DCB2 !important;
+}
+#comentarios .box{
+    height: 175px;
+    margin-bottom: 14px;
+    padding: 17px;
+    border-radius: 8px;
+}
+#comentarios .box span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+#comentarios .box span img{
+    margin-right: 10px;
+}
+#comentarios .owl-dots{
+    display: flex;
+    align-items: center;
+}
+#comentarios .owl-dots button{
+    width: 15px;
+    height: 15px;
+    background: #21DCB2;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+#comentarios .owl-dot button{
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+#comentarios .owl-dot img{
+    display: none;
+}
+#comentarios .owl-dot.active button{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comentarios .owl-dot.active img{
+    display: block;
+}
+#comentarios .owl-dots button.active{
+    width: 55px;
+    height: 55px;
+}
+#comentarios .pads{
+    opacity: 0;
+    transition: 0.3s;
+    height: 0;
+}
+#comentarios .pads.active{
+    opacity: 1;
+    transition: 0.5s;
+    height: auto;
+}

@@ -99,6 +99,7 @@
 }
 #video .bg-video iframe{
     margin-top: -69px;
+    width: 800px;
 }
 #ajuda{
     display: block;
@@ -202,8 +203,9 @@
     border-radius: 9px;
     padding: 18px 19px;
     text-align: left;
-    height: 288px;
+    height: 257px;
     position: relative;
+    width: 95%;
 }
 #como-funciona .box img.arrows{
     position: absolute;
@@ -243,7 +245,58 @@
 #como-funciona .bx2{
     margin-top: 180px;
 }
-
+#como-funciona .pads{
+    opacity: 0;
+    transition: 0.3s;
+    height: 0;
+}
+#como-funciona .pads.active{
+    opacity: 1;
+    transition: 0.5s;
+    height: auto;
+}
+#como-funciona .boxcf2{
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    padding: 38px 19px;
+    text-align: left;
+    height: 205px;
+    position: relative;
+}
+#como-funciona .boxcf2 img.arrows{
+    position: absolute;
+    left: 150px;
+}
+#como-funciona .boxcf2 img.arrows.arw1{
+    top: -73px;
+}
+#como-funciona .boxcf2 img.arrows.arw2{
+    bottom: -72px;
+}
+#como-funciona .boxcf2 > span{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 19px;
+}
+#como-funciona .boxcf2 > span > span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    background: #00CA94;
+    width: 42px !important;
+    height: 42px !important;
+    align-items: center;
+    display: table;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 300px;
+    line-height: 41px;
+}
 
 #comentarios{
     height: 650px;
@@ -273,6 +326,7 @@
     position: absolute;
     left: 19px;
     top: 30px;
+    width: auto;
 }
 #comentarios .boxes-comentarios span{
     display: flex;
@@ -280,12 +334,46 @@
 }
 #comentarios .boxes-comentarios span img{
     margin-right: 15px;
+    width: auto;
 }
 #comentarios .boxes-comentarios span .font-s{
 
 }
 #comentarios .boxes-comentarios span .font-s .italic{
     font-style: italic;
+}
+#comentarios .owl-dots{
+    display: flex;
+    align-items: center;
+}
+#comentarios .owl-dots button{
+    width: 15px;
+    height: 15px;
+    background: #21DCB2;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+#comentarios .owl-dot button{
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+#comentarios .owl-dot img{
+    display: none;
+}
+#comentarios .owl-dot.active button{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comentarios .owl-dot.active img{
+    display: block;
+}
+#comentarios .owl-dots button.active{
+    width: 55px;
+    height: 55px;
 }
 #blog .title{
     margin: 70px 0 50px 0;
@@ -305,9 +393,10 @@
     box-sizing: border-box;
     border-radius: 9px;
     height: 200px;
-    width: 335px;
+    width: 316px;
     display: flex;
     justify-content: center;
+    margin-right: 21px;
 }
 #na-midia .box img{
     display: inline-block;
@@ -319,4 +408,16 @@
 #na-midia .title-left:after{
     position: absolute;
     bottom: 81px;
+}
+#na-midia .boxes{
+    width: 100%;
+}
+#na-midia .boxes .box{
+    float: left;
+}
+#na-midia .boxes .box img{
+    width: auto;
+}
+#na-midia .owl-theme .owl-nav{
+    display: none;
 }

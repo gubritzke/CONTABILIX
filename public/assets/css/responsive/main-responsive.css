@@ -1,25 +1,42 @@
 @media (max-height: 900px){
 	.conteudos {
-   		padding-top: 17%;
+		padding-top: 17%;
 	}
 }
 @media (max-height: 830px){
 	.conteudos {
-    	padding-top: 15%;
+		padding-top: 15%;
 	}
 }
 @media (max-height: 770px){
 	.conteudos {
-    	padding-top: 14%;
+		padding-top: 14%;
 	}
 }
 @media (max-height: 720px){
 	.conteudos {
-    	padding-top: 11%;
+		padding-top: 11%;
 	}
 }
 @media (max-width: 750px){
-		.box-redes{
+	/* FONTS */
+	.font-pp{
+		font-size: 20px;
+	}
+	.font-s{
+		font-size: 26px;
+	}
+	.font-m{
+		font-size: 26px;
+	}
+	.font-g{
+		font-size: 36px;
+	}
+	.font-xg{
+		font-size: 47px;
+	}
+	/**************************/
+	.box-redes{
 		display: none !important;
 	}
 	header .menu > li:hover > .submenu{
@@ -32,8 +49,8 @@
 		background: none;
 	}
 	header .menu > li .bt {
-    margin: 15px 0;
-}
+		margin: 15px 0;
+	}
 	#patrocinadores{
 		padding: 0 30px 100px 30px;
 		box-sizing: border-box;
@@ -51,12 +68,12 @@
 		box-sizing: border-box !important;
 	}
 	#banner .bx-center {
-	    width: 1059px;
-	    background-size: cover;
-	    height: 419px;
-	    margin-top: 160px;
-	    text-align: center;
-	    position: relative;
+		width: 1059px;
+		background-size: cover;
+		height: 419px;
+		margin-top: 160px;
+		text-align: center;
+		position: relative;
 	}
 	#banner .bx-center .obj-rec{
 		right: 123px;
@@ -69,13 +86,10 @@
 		position: absolute;
 		margin: 34px 0px;
 		right: 42px;
-		top: -1px;
+		top: -97px;
 		width: 50px;
 		height: 50px;
 		z-index: 99999999;
-	}
-	header nav.active .menu-open{
-		position: fixed;
 	}
 	header nav .menu-open:after {
 		content:'';
@@ -88,7 +102,7 @@
 	header nav .menu-open:after {
 		width: 100%;
 		height: 2px;
-		background: #fff;
+		background: #02569e;
 		float: left;
 		margin: 5px 0px;
 		transition: .5s;
@@ -197,7 +211,7 @@
 	}
 	header nav.active ul.menu{
 		visibility: visible;
-		right: -48px;
+		right: -30px;
 		overflow-y: hidden;
 	}
 	header nav ul.menu:before{
@@ -217,17 +231,20 @@
 		height: 100px;
 	}
 	header nav ul.menu > li > a{
-		display: block;
+		display: flex;
 		text-align: left;
 		color: #000;
 		font-weight: 600;
 		width: 100%;
 		box-sizing: border-box;
-		padding: 0 0 0 30px;
+		padding:  0;
 		font-weight: 700;
 		font-size: 27px;
 		line-height: 87px;
 		height: 100%;
+		line-height: 36px;
+		align-content: center;
+		align-items: center;
 	}
 	header nav ul.menu > li > .submenu{
 		position: relative;
@@ -310,26 +327,18 @@
 	header .menu > li > .submenu{
 		background-color: #f5f5f5;
 	}
+	#header .logo img {
+		max-width: 600px;
+		height: auto;
+		width: 280px;
+		margin-top: 7px;
+	}
 	.submenu-2 a{
 		color: #000;
 		text-decoration: none;
 	}
 	.bt-mob{
 		text-align: center;
-	}
-	.col-md-6{
-		text-align: center;
-	}
-	.cirlcles{
-		display: inline-block;
-		height: 660px;
-	}
-	.cont-right{
-		box-sizing: border-box;
-		padding: 0 70px;
-	}
-	.box-buttons, .logo{
-		margin: 16px 0 0 45px;
 	}
 	p{
 		font-size: 20px;
@@ -338,16 +347,10 @@
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
-	a {
-	    width: 200px;
-	    height: 67px;
-	    display: inline-block;
-	    margin-right: 20px;
-	}
 	a:last-child {
 		margin-right: 0;
 	}
-	header nav.active .menu-open:before, 
+	header nav.active .menu-open:before,
 	header nav.active .menu-open:after{
 		background: #000;
 	}
@@ -362,254 +365,60 @@
 		padding-left: 0;
 	}
 	.content {
-	    box-sizing: border-box;
-	    padding: 0 20px;
-	}
-	#banner{
-	    box-sizing: border-box;
-   		padding: 0 60px;
-    }
-    #banner h1 {
-	    margin-top: 173px;
-	    font-size: 55px;
-	    font-weight: 700;
-	    line-height: 56px;
-	}
-	#banner span {
-	    font-size: 35px;
-	    line-height: 36px;
-	    font-weight: 600;
-	    margin-top: 20px;
-	    display: block;
-	    margin-bottom: 22px;
-	}
-	#banner p {
-	    font-size: 30px;
-	    margin-top: 10px;
-	}
-	#o-que-e p {
-	    font-size: 29px;
-	    padding: 0 26px;
-	    text-align: center;
-	}
-	#o-que-e img{
-		display: none;
-	}
-	#o-que-e a.bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 25px;
-	    width: 352px;
-	    text-align: center;
-	    line-height: 21px;
-	    margin-top: 50px;
+		box-sizing: border-box;
+		padding: 0 20px;
 	}
 	.desk-none{
-		display: block;
+		display: flex !important;
 	}
 	.mb-none{
 		display: none !important;
 	}
-	#recursos a.bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 25px;
-	    width: 540px;
-	    text-align: center;
-	    line-height: 21px;
-	    margin-top: 50px;
+	#faq .faqs{
+		margin-top: 35px;
 	}
-	#atuamos .mg-line-2{
-		margin-top: 45px;
+	#footer-2 {
+		background: #004C8D;
+		height: 110px;
 	}
-	#recursos .box-pd{
-		padding: 0 26px;
-		opacity: 1;
-	}
-	#recursos span{
-		font-size: 35px;
-	}
-	#recursos p{
-		font-size: 29px;
-	}
-	#atuamos span{
-		font-size: 31px;
-	}
-	#atuamos p{
-		font-size: 27px;
-	}
-	#atuamos .box{
-		height: 543px;
-		padding: 31px 21px;
-	}
-	#atuamos a.bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 25px;
-	    width: 405px;
-	    text-align: center;
-	    line-height: 21px;
-	    margin-top: 50px;
-	}
-	#atuamos .tt-font{
-		font-size: 38px;
-	}
-	#diferencias .sb-title{
-		font-size: 32px;
-	}
-	#diferencias h2.title-white{
-		font-size: 43px;
-	}
-	#diferencias p{
-		font-size: 34px;
-		padding: 0 0;
+	#footer-2 .al-ft2 p {
 		text-align: center;
+	}
+	#footer-1 .bd-left {
+		border-left: none;
+		padding-left: 0;
+		line-height: 25px;
 		margin-top: 29px;
 	}
-	#diferencias .line-mg p{
-		padding: 0;
-	}
-	#diferencias a.bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 25px;
-	    width: 405px;
-	    text-align: center;
-	    line-height: 21px;
-	    margin-top: 50px;
-	}
-	#faq img {
-	    margin: 40px auto -46px auto;
-	    display: block;
-	    width: 50% !important;
-	}
-	#faq a.bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 27px;
-	    width: 680px;
-	    text-align: center;
-	    line-height: 0;
-	    margin-top: 50px;
-	    margin-bottom: 68px;
-	    padding: 35px 0;
-	}
-	#faq p.texto{
-		font-size: 29px;
+	#calculadora {
+		padding: 45px 0 45px 0;
+		height: auto;
 		text-align: center;
 	}
-	#faq ul.faq li a {
-	    color: #fff;
-	    width: 100%;
-	    display: inline-block;
-	    font-weight: 500;
-	    font-size: 28px;
-	    line-height: 62px;
+	#calculadora .calculadora {
+		width: 97%;
 	}
-	#contato .ct-left {
-	    box-sizing: border-box;
-	    padding-left: 0;
-	    padding-right: 0;
-	    text-align: left;
+	.calculadora label.free-label{
+		font-size: 25px;
 	}
-	#contato p {
-	    font-size: 33px;
-	    margin-bottom: 35px;
-	    text-align: center;
+	.calculadora select {
+		font-size: 25px;
 	}
-	#contato .ct-left ul li a {
-	    margin-right: 30px;
-	    border: 1px solid #31b562;
-	    border-radius: 100px;
-	    width: 70px;
-	    height: 70px;
-	    display: inline-block;
-	    text-align: center;
-	    font-size: 36px;
-	    line-height: 65px;
-	    margin-bottom: 15px;
-	}
-	#contato span{
-		display: block;
-		font-size: 34px;
-		text-align: center;
-	}
-	#contato .ct-left .bt{
-    	display: block;
-    	margin: 0 auto;
-    	font-size: 27px;
-    	width: 522px;
-    	text-align: center;
-    	line-height: 24px;
-    	margin-top: 50px;
-  }
-	 #contato .ct-left .bt i{
-	 	font-size: 30px;
-	 }
-	 #contato .ct-right {
-	    border-left: 0px solid #dbdbdb;
-	    box-sizing: border-box;
-	    padding-right: 0;
-	    padding-left: 0;
-	    margin-top: 60px;
-	}
-	#contato .ct-right label input {
-	    width: 100%;
-	    height: 69px;
-	    border: none;
-	    background: #fff;
-	    font-size: 25px;
-	    margin-bottom: 8px;
-	    box-sizing: border-box;
-	    padding-left: 15px;
-	}
-	#contato .ct-right label textarea {
-	    height: 160px;
-	    font-size: 25px;
-	}
-	#contato .ct-right .bt {
-	    display: block;
-	    margin: 0 auto;
-	    font-size: 27px;
-	    width: 334px;
-	    text-align: center;
-	    line-height: 21px;
-	    margin-top: 16px;
-	    height: 66px;
-	}
-	#recursos img {
-	    display: inline-block;
-	    width: auto;
-	}
-	#diferencias img {
-	    float: none;
-	    width: 81px;
-	    display: block;
-	    margin: 0 auto;
-	}
-	#faq ul.faq li p.active {
-	    font-size: 26px;
-	}
-	#faq .titulo-faq {
-    	font-size: 41px;
-    	text-align: center;
-    	margin-left: 0;
- }
-	#faq .titulo-faq:after {
-	    top: 0px;
-	    left: 233px;
-	}
-	#faq {
-	    padding-bottom: 35px;
-	}
-	#contato .ct-left ul {
-    	display: block;
-	    text-align: center;
-	}
-	header ul li a.cl-white:hover:after{
+	#calculadora .text-icon img{
 		display: none;
 	}
-	header nav ul.menu > li.mb-none{
-		height: 0
+	#calculadora .left-calc a{
+		padding: 30px 35px;
+		margin-bottom: 30px;
+		font-size: 22px;
+	}
+	#faq {
+		margin: 70px 0;
+	}
+	#faq .faqs .text.active {
+		display: block;
+		height: 400px;
+		opacity: 1;
+		transition: 0.5s;
 	}
 }
