@@ -89,7 +89,7 @@
 }
 #como-funciona{
     text-align: center;
-    padding: 40px 250px 143px 250px;
+    padding: 40px 200px 143px 250px;
     margin-top: 156px;
 }
 #como-funciona .buttons a.active{
@@ -109,7 +109,7 @@
     box-sizing: border-box;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
     border-radius: 9px;
-    padding: 38px 19px;
+    padding: 30px 19px;
     text-align: left;
     height: 205px;
     position: relative;

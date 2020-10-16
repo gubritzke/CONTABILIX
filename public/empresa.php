@@ -3,8 +3,11 @@
 <link href="./assets/css/responsive/empresa-responsive.css" media="screen" rel="stylesheet" type="text/css">
 
 <div id="banner" class="bg-green-400">
-    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="banner-effect banner-effect1 animated fadeInLeft">
-    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect1 animated fadeInLeft">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect1 animated fadeIn">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect2 animated fadeIn">
+
     <div class="content">
         <div class="">
             <div class="row">
@@ -237,8 +240,7 @@
 
                 <div class="col-12 vantagens pads pad-1 active desk-none">
                     <div class="row">
-                        <div class="row col-12 owl-carousel owl-carousel-1">
-                            <div class="col-md-12 col-lg-6">
+                        <div class="row col-12 owl-carousel owl-carousel-coments2">
                                 <div class="box bg-white">
                                     <span class="f-weight-700 cl-green-300">
                                         <img src="assets/img/empresa/spec/icon-1.svg">
@@ -246,9 +248,7 @@
                                     </span>
                                     <p class="font-s cl-gray-300">Não cobramos honorários pela abertura de seu empresa. </p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-12 col-lg-6">
                                 <div class="box bg-white">
                                     <span class="f-weight-700 cl-green-300">
                                         <img src="assets/img/empresa/spec/icon-2.svg">
@@ -256,9 +256,7 @@
                                     </span>
                                     <p class="font-s cl-gray-300">Nossos especialistas irão resolver tudo que precisar e estarão disponíveis por telefone, whatsapp e e-mail.</p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-12 col-lg-6">
                                 <div class="box bg-white">
                                     <span class="f-weight-700 cl-green-300">
                                         <img src="assets/img/empresa/spec/icon-3.svg">
@@ -266,9 +264,7 @@
                                     </span>
                                     <p class="font-s cl-gray-300">Estamos sempre atualizados na legislação para poder lhe oferecer a opção de empresa mais vantajosa e assim você gastar o mínimo com impostos.</p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-12 col-lg-6">
                                 <div class="box bg-white">
                                     <span class="f-weight-700 cl-green-300">
                                         <img src="assets/img/empresa/spec/icon-4.svg">
@@ -276,12 +272,10 @@
                                     </span>
                                     <p class="font-s cl-gray-300">Tempo médio de abertura para que você tenha seu CNPJ é de 20 dias úteis.</p>
                                 </div>
-                            </div>
 
                         </div>
                     </div>
                 </div>
-
 
 
                 <div class="col-12 boxes-comentarios owl-carousel owl-carousel-coments pads pad-2">

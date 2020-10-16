@@ -52,16 +52,16 @@
                         </p>
                     </div>
 
-                    <a href="javascript:;" class="bt bg-blue-400 cl-white f-weight-700">VEJA OS SERVIÇOS INCLUSOS NA SUA MENSALIDADE</a>
+                    <a href="javascript:;" class="bt open-modal bg-blue-400 cl-white f-weight-700">VEJA OS SERVIÇOS INCLUSOS NA SUA MENSALIDADE</a>
                 </div>
             </div>
 
             <div class="col-md-12 col-lg-6">
                 <form method="post" class="row no-gutters calculadora">
-                    <div class="bg col-12 row bg-white box-form-rd">
-                        <label class="col-12">
+                    <div class="bg form-full col-12 row bg-white box-form-rd no-gutters">
+                        <label class="col-12 lb-select">
                             <span class="title-form font-m cl-gray-300 f-weight-700">Tipo da sua empresa</span>
-                            <select class="bg-gray-200" name="tipo">
+                            <select class="bg-gray-200 select-css" name="tipo">
                                 <option value="">Empresa Prestadora de serviços</option>
                                 <option value="teste">teste</option>
                             </select>
@@ -73,7 +73,7 @@
                                    checked><label class="free-label four col" for="simples">Simples Nacional</label>
                         </label>
 
-                        <label class="col-6">
+                        <label class="col-6" align="right">
                             <span class="title-form font-m cl-gray-300 f-weight-700">&nbsp;</span>
                             <input type="radio" name="regimetributario" id="lucro" value="Lucro Presumido"><label
                                     class="free-label four col" for="lucro">Lucro Presumido</label>
@@ -107,10 +107,10 @@
                         </label>
                     </div>
 
-                    <div class="col-12 row bg-green-200 box-valor-rd">
+                    <div class="col-12 no-gutters row bg-green-200 box-valor-rd">
                         <div class="box-valor col-12" align="center">
                             <span class="font-m cl-white f-weight-700">Valor da Mensalidade para sua empresa</span>
-                            <p class="font-m cl-green-400 f-weight-700">R$ <spa n class="cl-white font-xg">98,00</span>
+                            <p class="font-m cl-green-400 f-weight-700">R$ <span class="cl-white font-xg">98,00</span>
                             </p>
                         </div>
                     </div>

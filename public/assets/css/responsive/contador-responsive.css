@@ -19,6 +19,14 @@
     #banner .text-banner .buttons a.bt-2 span {
         left: calc(50% - 80.1px);
     }
+    #banner .banner-effect2 {
+        height: 565px;
+        top: 155px;
+    }
+    #banner .banner-effect1 {
+        height: 565px;
+        top: 155px;
+    }
     #blog .box{
         text-align: center;
     }
@@ -52,6 +60,10 @@
     }
     #planos{
         margin-bottom: 60px;
+    }
+    #planos .bx-mb-2{
+        margin-top: 65px;
+        margin-bottom: 177px;
     }
     #planos .box-2 a {
         position: relative;
@@ -91,6 +103,8 @@
 
     #como-funciona .bx2 {
         margin-top: 35px;
+        width: 95%;
+        display: inline-block;
     }
     #como-funciona .boxcf2 img.arrows{
         display: none;

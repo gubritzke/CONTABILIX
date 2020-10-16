@@ -381,7 +381,7 @@ ul li{
     display: block;
     padding: 10px 0 10px 13px;
     margin-bottom: 12px;
-    z-index: 9;
+    z-index: 2;
     position: relative;
 }
 #faq .faqs a:after{
@@ -444,13 +444,14 @@ ul li{
     text-align: center;
     height: 55px;
     line-height: 50px;
-    display: block;
+    display: inline-block;
     border-radius: 11px;
     cursor: pointer;
     border: 3px solid transparent;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    width: 95%;
 }
 
 .calculadora input[type=radio]{
@@ -513,4 +514,101 @@ ul li{
 #calculadora .texts-calc{
     margin-bottom: 25px;
 }
+#calculadora .form-full{
+    padding: 15px 29px;
+}
+.calculadora select option{
+    padding: 15px 0;
+}
+.calculadora select{
+    color: #656868;
+}
+footer{
+    margin-bottom: 102px;
+}
+#barra-fixa{
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.15);
+    height: 102px;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    display: none;
+}
+#barra-fixa.active{
+    display: block;
+}
+#barra-fixa .content{
+    height: 100%;
+}
+#barra-fixa .content > .row{
+    height: 100%;
+}
+#barra-fixa .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#barra-fixa .left img{
+    margin-right: 15px;
+}
+#barra-fixa .center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+#barra-fixa .center a{
+    padding: 0 24px;
+    height: 40px;
+    line-height: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#barra-fixa .center a img{
+    margin-right: 10px;
+}
+#barra-fixa .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#barra-fixa .right label{
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+#barra-fixa .right input{
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 6px 0 0 6px;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    padding-left: 19px;
+}
+#barra-fixa .right button{
+    height: 40px;
+    background: #F4CD3F;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 

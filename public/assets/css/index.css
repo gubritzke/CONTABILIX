@@ -186,7 +186,7 @@
 }
 #como-funciona .buttons a.active{
     background: #009AE8;
-    z-index: 9;
+    z-index: 2;
     position: relative;
 }
 #como-funciona .buttons{
@@ -376,7 +376,7 @@
     height: 55px;
 }
 #blog .title{
-    margin: 70px 0 50px 0;
+    margin: 19px 0 50px 0;
 }
 #blog img{
     margin-bottom: 25px;

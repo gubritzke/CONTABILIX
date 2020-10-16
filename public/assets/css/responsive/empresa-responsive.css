@@ -36,12 +36,10 @@
         margin: 0 0 25px 0;
     }
     #banner .banner-effect2 {
-        right: -135px;
         height: 565px;
         top: 155px;
     }
     #banner .banner-effect1 {
-        right: 86px;
         height: 565px;
         top: 155px;
     }
@@ -67,7 +65,7 @@
         height: 305px;
     }
     #comentarios .boxes-comentarios .box {
-        width: 700px;
+        width: 670px;
         height: 260px;
     }
     #comentarios .boxes-comentarios {
@@ -94,6 +92,8 @@
     }
     #comentarios .box {
         height: 213px;
+        width: 96%;
+        margin-left: 27px;
     }
     #comentarios .box span{
         font-size: 30px;

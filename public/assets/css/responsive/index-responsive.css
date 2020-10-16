@@ -37,12 +37,10 @@
         margin: 0 0 25px 0;
     }
     #banner .banner-effect2 {
-        right: -135px;
         height: 565px;
         top: 155px;
     }
     #banner .banner-effect1 {
-        right: 86px;
         height: 565px;
         top: 155px;
     }
@@ -95,7 +93,7 @@
         width: auto;
     }
     #ajuda .boxes{
-        height: 260px;
+        height: 300px;
     }
     #ajuda .boxes > div span{
         justify-content: center;
@@ -120,5 +118,14 @@
         margin: 40px 0 0 0;
         width: 90%;
         display: inline-block;
+    }
+    #quem-somos .pd-left {
+        padding-left: 0;
+    }
+    #quem-somos .pd-left p{
+        text-align: center;
+    }
+    #quem-somos .pd-left .localizacoes{
+        padding-left: 58px;
     }
 }

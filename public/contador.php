@@ -3,8 +3,11 @@
 <link href="./assets/css/responsive/contador-responsive.css" media="screen" rel="stylesheet" type="text/css">
 
 <div id="banner" class="bg-green-400">
-    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="banner-effect banner-effect1 animated fadeInLeft">
-    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect1 animated fadeInLeft">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect1 animated fadeIn">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect2 animated fadeIn">
+
     <div class="content">
         <div class="">
             <div class="row">
@@ -158,10 +161,10 @@
 
             <div class="col-md-12 col-lg-6">
                 <form method="post" class="row no-gutters calculadora">
-                    <div class="bg col-12 row bg-white box-form-rd">
-                        <label class="col-12">
+                    <div class="bg form-full col-12 row bg-white box-form-rd no-gutters">
+                        <label class="col-12 lb-select">
                             <span class="title-form font-m cl-gray-300 f-weight-700">Tipo da sua empresa</span>
-                            <select class="bg-gray-200" name="tipo">
+                            <select class="bg-gray-200 select-css" name="tipo">
                                 <option value="">Empresa Prestadora de serviços</option>
                                 <option value="teste">teste</option>
                             </select>
@@ -173,7 +176,7 @@
                                    checked><label class="free-label four col" for="simples">Simples Nacional</label>
                         </label>
 
-                        <label class="col-6">
+                        <label class="col-6" align="right">
                             <span class="title-form font-m cl-gray-300 f-weight-700">&nbsp;</span>
                             <input type="radio" name="regimetributario" id="lucro" value="Lucro Presumido"><label
                                     class="free-label four col" for="lucro">Lucro Presumido</label>
@@ -207,10 +210,10 @@
                         </label>
                     </div>
 
-                    <div class="col-12 row bg-green-200 box-valor-rd">
+                    <div class="col-12 no-gutters row bg-green-200 box-valor-rd">
                         <div class="box-valor col-12" align="center">
                             <span class="font-m cl-white f-weight-700">Valor da Mensalidade para sua empresa</span>
-                            <p class="font-m cl-green-400 f-weight-700">R$ <spa n class="cl-white font-xg">98,00</span>
+                            <p class="font-m cl-green-400 f-weight-700">R$ <span class="cl-white font-xg">98,00</span>
                             </p>
                         </div>
                     </div>
@@ -288,7 +291,7 @@
             </div>
 
             <div class="col-md-12 col-lg-6">
-                <div class="box-1 bg-green-400">
+                <div class="box-1 bx-mb-2 bg-green-400">
                     <div class="text-box-1">
                         <p class="font-s f-weight-700 cl-white">CONTABILIDADE COMPLETA</p>
                         <span class="font-g f-weight-700 cl-white">Comércio</span>

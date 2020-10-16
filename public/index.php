@@ -3,8 +3,11 @@
 <link href="./assets/css/responsive/index-responsive.css" media="screen" rel="stylesheet" type="text/css">
 
 <div id="banner" class="bg-blue-800">
-    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="banner-effect banner-effect1 animated fadeInLeft">
-    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect1 animated fadeInLeft">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="mb-none banner-effect banner-effect2 animated fadeInRight">
+    <img src="assets/img/home/banner/bg-effect-1.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect1 animated fadeIn">
+    <img src="assets/img/home/banner/bg-effect-2.svg" alt="Logo Contabilix" class="desk-none banner-effect banner-effect2 animated fadeIn">
+
     <div class="content">
         <div class="">
             <div class="row">

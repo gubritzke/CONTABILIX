@@ -9,6 +9,23 @@ $( function(){
 		items: 1,
 		loop:true,
 		nav:true,
+		slideSpeed: 300,
+		autoplay: true,
+		navText: ["",""],
+		dots: false,
+		responsive:{
+			0:{
+				items:1
+			}
+		}
+	});
+
+	$('.owl-carousel-coments2').owlCarousel({
+		items: 1,
+		loop:true,
+		nav:true,
+		margin:15,
+		slideSpeed: 300,
 		autoplay: true,
 		navText: ["",""],
 		dots: false,
@@ -23,6 +40,7 @@ $( function(){
 		items: 1,
 		loop:true,
 		nav:true,
+		slideSpeed: 300,
 		autoplay: true,
 		navText: ["",""],
 		dots: true,
@@ -37,6 +55,7 @@ $( function(){
 	$('.owl-carousel-2').owlCarousel({
 		items: 1,
 		loop:true,
+		slideSpeed: 300,
 		nav:true,
 		autoplay: true,
 		navText: ["",""],
@@ -56,22 +75,34 @@ $( function(){
 
 	jQuery(function (){
 		jQuery(window).scroll(function (){
-			if (jQuery(this).scrollTop() > 200) {
-				$("#o-que-e img").addClass("animated fadeInUp efct-ative");
+			if (jQuery(this).scrollTop() > 80) {
+				$("#barra-fixa ").addClass("active animated fadeInUp");
 			};
-			if ( $(window).width() > 751) {
-				if (jQuery(this).scrollTop() > 500) {
-					$("#recursos .box-pd").addClass("animated fadeInUp efct-ative");
-				};
-			}
-			if (jQuery(this).scrollTop() > 1600) {
-				$("#atuamos .box").addClass("animated zoomIn efct-ative");
+			if (jQuery(this).scrollTop() < 80) {
+				$("#barra-fixa ").addClass("animated fadeInDown");
+				$("#barra-fixa ").removeClass("active");
 			};
 		});
 	});
 
+	// jQuery(function (){
+	// 	jQuery(window).scroll(function (){
+	// 		if (jQuery(this).scrollTop() > 655) {
+	// 			$("#o-que-e img").addClass("animated fadeInUp efct-ative");
+	// 		};
+	// 		if ( $(window).width() > 751) {
+	// 			if (jQuery(this).scrollTop() > 500) {
+	// 				$("#recursos .box-pd").addClass("animated fadeInUp efct-ative");
+	// 			};
+	// 		}
+	// 		if (jQuery(this).scrollTop() > 1600) {
+	// 			$("#atuamos .box").addClass("animated zoomIn efct-ative");
+	// 		};
+	// 	});
+	// });
+
 	// abre - MODAL PORTFOLIO
-	$('#faq .item').bind('click', function(){
+	$('#calculadora .open-modal').bind('click', function(){
         
 		var dataiframe = $(this).attr("data-iframe");
         
