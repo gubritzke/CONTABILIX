@@ -52,23 +52,29 @@
                         </p>
                     </div>
 
-                    <a href="javascript:;" class="bt open-modal bg-blue-400 cl-white f-weight-700">VEJA OS SERVIÇOS INCLUSOS NA SUA MENSALIDADE</a>
+                    <a onclick="$('body').addClass('fixed');" href="javascript:;" data-iframe="teste" class="bt open-modal bg-blue-400 cl-white f-weight-700">VEJA OS SERVIÇOS INCLUSOS NA SUA MENSALIDADE</a>
                 </div>
             </div>
 
             <div class="col-md-12 col-lg-6">
                 <form method="post" class="row no-gutters calculadora">
                     <div class="bg form-full col-12 row bg-white box-form-rd no-gutters">
-                        <label class="col-12 lb-select">
-                            <span class="title-form font-m cl-gray-300 f-weight-700">Tipo da sua empresa</span>
-                            <select class="bg-gray-200 select-css" name="tipo">
-                                <option value="">Empresa Prestadora de serviços</option>
-                                <option value="teste">teste</option>
-                            </select>
+                        <a class="calc-info desk-none" onclick="$('body').addClass('fixed');">?</a>
+                        <label class="col-6">
+                            <span class="title-form font-m cl-gray-300 f-weight-700 ajuste-mg-mobal-center">Tipo da sua empresa</span>
+                            <input type="radio" name="tipoempresa" id="servico" value=" Empresa Prestadora de Serviço"
+                                   checked><label class="free-label four col" for="servico">Serviço</label>
+                        </label>
+
+                        <label class="col-6" align="right">
+                            <span class="title-form font-m cl-gray-300 f-weight-700">&nbsp;</span>
+                            <span class="calc-info mb-none" onclick="$('body').addClass('fixed');">?</span>
+                            <input type="radio" name="tipoempresa" id="comercio" value=" Empresa de Comércio"><label
+                                    class="free-label four col" for="comercio">Comércio</label>
                         </label>
 
                         <label class="col-6">
-                            <span class="title-form font-m cl-gray-300 f-weight-700">Regime tributário</span>
+                            <span class="title-form font-m cl-gray-300 f-weight-700 ajuste-mg-mobal-center">Regime tributário</span>
                             <input type="radio" name="regimetributario" id="simples" value="Simples Nacional"
                                    checked><label class="free-label four col" for="simples">Simples Nacional</label>
                         </label>
@@ -81,6 +87,8 @@
 
                         <label class="col-12">
                             <span class="title-form font-m cl-gray-300 f-weight-700">Quantidade de funcionários</span>
+                            <img src="assets/img/calculadora/icon-triangulo2.svg" class="desk-none ic-ipt" />
+                            <img src="assets/img/calculadora/icon-triangulo2.svg" class="mb-none ic-ipt" />
                             <select class="bg-gray-200" name="funcionarios">
                                 <option value="0">0</option>
                                 <option value="1">1</option>

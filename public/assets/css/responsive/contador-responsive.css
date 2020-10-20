@@ -1,6 +1,7 @@
 @media (max-width: 750px){
     #banner {
-        height: 680px;
+        height: 1200px;
+        text-align: center;
     }
     #banner .text-banner .buttons a {
         text-align: center;
@@ -11,7 +12,9 @@
         margin-top: 35px;
     }
     #banner .text-banner .selo {
-        bottom: -94px;
+        bottom: -82px;
+        width: 100%;
+        left: 0;
     }
     #banner .text-banner .buttons a.bt-1 span {
         left: calc(50% - 44.08px);
@@ -21,11 +24,11 @@
     }
     #banner .banner-effect2 {
         height: 565px;
-        top: 155px;
+        bottom: -75px;
     }
     #banner .banner-effect1 {
         height: 565px;
-        top: 155px;
+        bottom: -75px;
     }
     #blog .box{
         text-align: center;
@@ -63,7 +66,7 @@
     }
     #planos .bx-mb-2{
         margin-top: 65px;
-        margin-bottom: 177px;
+        /* margin-bottom: 177px; */
     }
     #planos .box-2 a {
         position: relative;
@@ -86,7 +89,7 @@
         width: 100%;
     }
     #contato {
-        padding: 88px 0;
+        padding: 115px 0 88px 0;
     }
     #contato form {
         padding: 0 25px;
@@ -116,5 +119,30 @@
         display: block;
         width: 100%;
     }
-
+    #planos .bg-forms a.bt,
+    #planos .bg-forms button{
+        width: 94%;
+        margin: 0;
+        float: left;
+        height: 54px;
+        margin-top: 29px;
+    }
+    #planos .bg-forms form label.ipt-full input {
+        width: 97%;
+    }
+    #planos .bg-forms form label input{
+        font-size: 25px;
+    }
+    #planos .bg-forms p{
+        text-align: center;
+    }
+    #planos .mb-center{
+        text-align: center;
+    }
+    #ajuda .box p{
+        margin: -15px 0 0 0;
+    }
+    #banner .foto-banner img {
+        margin-top: 110px;
+    }
 }

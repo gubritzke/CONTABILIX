@@ -11,7 +11,7 @@
             <div class="col-lg-12 col-md-12 pd-left">
                 <p class="cl-gray-300 font-s">Somos uma Plataforma de <b>Contabilidade Online especializada em pequenas empresas. </b></p>
                 <p class="cl-gray-300 font-s">Graças a <b>automatização de todas as rotinas executadas nos escritórios tradicionais de contabilidade,</b>  conseguimos reduzir drasticamente o custo do contador para as pequenas empresas. Importante ressaltar que aliamos a tecnologia aos nossos contadores, ou seja, apesar de nosso sistema dar conta de várias rotinas de sua empresa de forma automática, haverá sempre um contador disponível para você falar por telefone, e-mail ou Whatsapp quando precisar tirar uma dúvida ou de qualquer tipo de ajuda. </p>
-                <p class="cl-gray-300 font-s"><a class="cl-gray-300 font-s" href="javascript:;">Clique aqui</a> e consulte nosso registro do Conselho Federal de Contabilidade</p>
+                <p class="cl-gray-300 font-s"><a class="cl-gray-300 font-s" target="_blank" href="https://www.contabilix.com.br/files/pdfs/CRC-SP_Contabilix.pdf">Clique aqui</a> e consulte nosso registro do Conselho Federal de Contabilidade</p>
                 <img src="assets/img/sobre-nos/image.png">
             </div>
         </div>
@@ -45,13 +45,9 @@
         <div class="row">
             <div class="col-12 title" align="center">
                 <h1 class="font-g cl-gray-300 f-weight-400"><b>Serviços inclusos na mensalidade</b> </h1>
-            </div>
-            <div class="col-12">
                 <p class="cl-gray-300 font-s" align="center">
-                    <b>
-                        Descomplicamos a burocracia criando uma relação moderna da sua empresa com a contabilidade. Você pode ficar tranquilo! <br />
-                        Nosso sistema cuidará de todas as obrigações legais da sua empresa perante o governo, tais como:
-                    </b>
+                    Descomplicamos a burocracia criando uma relação moderna da sua empresa com a contabilidade. Você pode ficar tranquilo! <br />
+                    Nosso sistema cuidará de todas as obrigações legais da sua empresa perante o governo, tais como:
                 </p>
             </div>
 
@@ -116,19 +112,19 @@
                 <div class="col-6">
                     <div class="box bx-down bg-blue-400">
                         <img src="assets/img/sobre-nos/icons/icon-2.svg">
-                        <span class="cl-white font-m f-weight-600">Cálculo e emissão das<br /> guias de impostos</span>
+                        <span class="cl-white font-m f-weight-600">Cálculo e emissão das guias de impostos</span>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="box bx-down bg-blue-400">
                         <img src="assets/img/sobre-nos/icons/icon-3.svg">
-                        <span class="cl-white font-m f-weight-600">Folha de pagamento dos<br /> funcionários e sócios</span>
+                        <span class="cl-white font-m f-weight-600">Folha de pagamento dos funcionários e sócios</span>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="box bx-down bg-blue-400">
                         <img src="assets/img/sobre-nos/icons/icon-4.svg">
-                        <span class="cl-white font-m f-weight-600">Entregas das<br /> obrigações acessórias</span>
+                        <span class="cl-white font-m f-weight-600">Entregas das obrigações acessórias</span>
                     </div>
                 </div>
                 <div class="col-6">

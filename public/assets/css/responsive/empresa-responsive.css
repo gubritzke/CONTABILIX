@@ -1,14 +1,17 @@
 @media (max-width: 750px){
     #banner {
-        height: 680px;
+        height: 1250px;
+        text-align: center;
     }
     #banner .text-banner .buttons a {
         text-align: center;
         padding: 32px 61px;
         font-size: 22px;
+        margin: 0 auto;
     }
     #banner .text-banner {
         margin-top: 35px;
+        padding-right: 15px;
     }
     #banner .text-banner .selo {
         bottom: -105px;
@@ -37,11 +40,11 @@
     }
     #banner .banner-effect2 {
         height: 565px;
-        top: 155px;
+        bottom: -125px;
     }
     #banner .banner-effect1 {
         height: 565px;
-        top: 155px;
+        bottom: -125px;
     }
     #o-que-e .pd-left {
         padding-left: 20px;
@@ -65,8 +68,9 @@
         height: 305px;
     }
     #comentarios .boxes-comentarios .box {
-        width: 670px;
-        height: 260px;
+        width: 687px;
+        margin-left: 0;
+        height: 288px;
     }
     #comentarios .boxes-comentarios {
         margin-top: 0;
@@ -91,15 +95,16 @@
         width: auto;
     }
     #comentarios .box {
-        height: 213px;
+        height: 248px;
         width: 96%;
         margin-left: 27px;
+        max-width: 681.6px;
     }
     #comentarios .box span{
         font-size: 30px;
     }
     #comentarios {
-        height: 760px;
+        height: 836px;
         padding: 45px 0;
         background: none;
         background-position: center;
@@ -108,13 +113,23 @@
     }
     #comentarios .buttons {
         padding: 0;
-        margin: 25px 0 45px 0;
+        margin: 0px 0 30px 0;
     }
     #comentarios .buttons a {
         margin-right: 0;
-        width: 49.5%;
+        width: 100%;
         text-align: center;
         font-size: 18px;
-        padding: 28px 0;
+        padding: 33px 0;
+        margin-bottom: 23px;
+    }
+    #comentarios .owl-dot button{
+        margin-top: 0;
+    }
+    #banner .foto-banner img {
+        margin-top: 45px;
+    }
+    #como-funciona .pads{
+        width: 750px !important;
     }
 }

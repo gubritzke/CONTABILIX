@@ -1,18 +1,27 @@
 @media (max-width: 750px){
     #banner {
-        height: 680px;
+        height: 1235px;
+        text-align: center;
     }
     #banner .text-banner .buttons a {
         width: 48%;
         text-align: center;
         padding: 32px 0;
         font-size: 22px;
+        margin-right: 0;
+    }
+    #banner .foto-banner img {
+        margin-top: 92px;
+        /* margin-left: 100px; */
     }
     #banner .text-banner {
         margin-top: 35px;
     }
     #banner .text-banner .selo {
         bottom: -105px;
+        text-align: left;
+        width: 100%;
+        left: 67px;
     }
     #banner .text-banner .buttons a.bt-1 span {
         left: calc(50% - 44.08px);
@@ -38,11 +47,11 @@
     }
     #banner .banner-effect2 {
         height: 565px;
-        top: 155px;
+        bottom: -113px;
     }
     #banner .banner-effect1 {
         height: 565px;
-        top: 155px;
+        bottom: -113px;
     }
     #video .bg-video {
         width: 100%;
@@ -56,6 +65,7 @@
     }
     #como-funciona{
         margin-bottom: 215px;
+        height: 785px;
     }
     #como-funciona .buttons a {
         width: 50%;
@@ -88,6 +98,7 @@
         width: 100%;
         padding-left: 45px;
         text-align: center;
+        height: 320px;
     }
     #ajuda .box img{
         width: auto;
@@ -97,26 +108,17 @@
     }
     #ajuda .boxes > div span{
         justify-content: center;
+        font-size: 24px;
     }
     #blog img {
         width: 100%;
-    }
-    #na-midia h2{
-        text-align: center;
-        display: block;
-        margin: 0 auto 45px auto;
-    }
-    #na-midia .title-left:after {
-        position: absolute;
-        bottom: 30px;
-        left: calc(50% - 20px);
     }
     #como-funciona .boxcf2 img.arrows{
         display: none;
     }
     #como-funciona .boxcf2{
         margin: 40px 0 0 0;
-        width: 90%;
+        width: 96%;
         display: inline-block;
     }
     #quem-somos .pd-left {
@@ -127,5 +129,48 @@
     }
     #quem-somos .pd-left .localizacoes{
         padding-left: 58px;
+    }
+    #atendimento .box span {
+        margin-top: 72px;
+        display: inline-block;
+        margin-left: 12px;
+    }
+    #atendimento .box p {
+        font-size: 19px;
+    }
+    #atendimento .title-left{
+        margin-bottom: 50px;
+    }
+    #ajuda .box p{
+        margin: -15px 0 0 0;
+    }
+    #quem-somos .pd-right{
+        text-align: center;
+        font-size: 25px !important;
+    }
+    #quem-somos .pd-right p a{
+        font-size: 25px !important;
+    }
+    #quem-somos .pd-right p{
+        font-size: 25px !important;
+    }
+    #quem-somos .pd-right img:first-child{
+        margin-right: 25px;
+    }
+    #atendimento .image1 {
+        float: none;
+        margin-bottom: 50px;
+        margin-top: -35px;
+    }
+    #atendimento .image2 {
+        position: absolute;
+        top: 60px;
+        left: 132px;
+    }
+    #atendimento .images-align-mobal{
+        text-align: center;
+    }
+    #como-funciona .pads{
+        width: 750px !important;
     }
 }

@@ -23,11 +23,11 @@
 
 
                     <div class="buttons">
-                        <a href="javascript:;" class="bt bg-white cl-green-300 font-s">QUERO TROCAR DE CONTADOR</a>
+                        <a href="#planos" class="bt bg-white cl-green-300 font-s">QUERO TROCAR DE CONTADOR</a>
                     </div>
                     <span class="cl-white font-m f-weight-700 selo"><img src="assets/img/contador/banner/icon-primeiro.svg" alt="5 anos de experiência">PRIMEIRO MÊS GRÁTIS!</span>
                 </div>
-                <div class="col-lg-5 col-md-12 foto-banner mb-none">
+                <div class="col-lg-5 col-md-12 foto-banner">
                     <img src="assets/img/contador/banner/image-1.png">
                 </div>
             </div>
@@ -39,8 +39,7 @@
     <div class="content">
         <div class="row">
             <div class="col-12 title" align="center">
-                <h2 class="font-g cl-gray-300 f-weight-400"><b>Veja como a Contabilix pode lhe ajudar no dia a dia</b> </h2>
-                <p class="cl-gray-300 font-s">Seja para abrir uma empresa ou realizar o serviço contábil dela, aqui você encontra <span class="cl-blue-800 f-weight-700">praticidade</span> e <span class="cl-blue-800 f-weight-700">economia</span>.</p>
+                <h2 class="font-g cl-gray-300 f-weight-400"><b>Como vai funcionar a sua contabilidade na prática </b> </h2>
             </div>
             <div class="row boxes mb-none">
                 <div class="col-4">
@@ -162,16 +161,22 @@
             <div class="col-md-12 col-lg-6">
                 <form method="post" class="row no-gutters calculadora">
                     <div class="bg form-full col-12 row bg-white box-form-rd no-gutters">
-                        <label class="col-12 lb-select">
-                            <span class="title-form font-m cl-gray-300 f-weight-700">Tipo da sua empresa</span>
-                            <select class="bg-gray-200 select-css" name="tipo">
-                                <option value="">Empresa Prestadora de serviços</option>
-                                <option value="teste">teste</option>
-                            </select>
+                        <a class="calc-info desk-none" onclick="$('body').addClass('fixed');">?</a>
+                        <label class="col-6">
+                            <span class="title-form font-m cl-gray-300 f-weight-700 ajuste-mg-mobal-center">Tipo da sua empresa</span>
+                            <input type="radio" name="tipoempresa" id="servico" value=" Empresa Prestadora de Serviço"
+                                   checked><label class="free-label four col" for="servico">Serviço</label>
+                        </label>
+
+                        <label class="col-6" align="right">
+                            <span class="title-form font-m cl-gray-300 f-weight-700">&nbsp;</span>
+                            <span class="calc-info mb-none" onclick="$('body').addClass('fixed');">?</span>
+                            <input type="radio" name="tipoempresa" id="comercio" value=" Empresa de Comércio"><label
+                                    class="free-label four col" for="comercio">Comércio</label>
                         </label>
 
                         <label class="col-6">
-                            <span class="title-form font-m cl-gray-300 f-weight-700">Regime tributário</span>
+                            <span class="title-form font-m cl-gray-300 f-weight-700 ajuste-mg-mobal-center">Regime tributário</span>
                             <input type="radio" name="regimetributario" id="simples" value="Simples Nacional"
                                    checked><label class="free-label four col" for="simples">Simples Nacional</label>
                         </label>
@@ -184,6 +189,8 @@
 
                         <label class="col-12">
                             <span class="title-form font-m cl-gray-300 f-weight-700">Quantidade de funcionários</span>
+                            <img src="assets/img/calculadora/icon-triangulo2.svg" class="desk-none ic-ipt" />
+                            <img src="assets/img/calculadora/icon-triangulo2.svg" class="mb-none ic-ipt" />
                             <select class="bg-gray-200" name="funcionarios">
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -264,7 +271,7 @@
     </div>
 </div>
 
-<div id="planos">
+<div id="planos" class="paddi">
     <div class="content">
         <div class="row">
             <div class="col-12 title" align="center">
@@ -272,7 +279,8 @@
                 <p class="cl-gray-300 font-s">Graças a automatização de todas as tarefas executadas nos escritórios tradicionais, conseguimos ter preços incríveis para sua empresa </p>
             </div>
         </div>
-        <div class="row">
+        
+        <div class="row planos active" >
             <div class="col-md-12 col-lg-6">
                 <div class="box-1 bg-green-400">
                     <div class="text-box-1">
@@ -284,7 +292,7 @@
                         <p class="font-s cl-gray-300">
                             Para Advogados, Arquitetos, Dentistas, Médicos, Designers, Profissionais de TI, Representantes Comerciais, entre outras atividades.
                         </p>
-                        <a href="javascript:;" class="bt bg-green-200 cl-white font-s bt-1">TROCAR DE CONTADOR <span class="bg-yellow-300 cl-blue-800 font-pp">1º mês grátis</span></a>
+                        <a onclick="$('#planos .planos').removeClass('active animated fadeIn'),$('#planos').removeClass('paddi'), $('#planos .planos-form').addClass('active animated fadeIn')" href="javascript:;" class="bt bg-green-200 cl-white font-s bt-1">TROCAR DE CONTADOR <span class="bg-yellow-300 cl-blue-800 font-pp">1º mês grátis</span></a>
                         <a href="javascript:;" class="cl-blue-800 font-s saiba f-weight-700">saiba mais sobre os serviços inclusos na mensalidade</a>
                     </div>
                 </div>
@@ -301,16 +309,62 @@
                         <p class="font-s cl-gray-300">
                             Para Lojas de roupas e calçados, Supermercados, Lojas de conveniências, Óticas, Materiais de construção, Restaurantes, entre outras atividades.
                         </p>
-                        <a href="javascript:;" class="bt bg-green-200 cl-white font-s bt-1">TROCAR DE CONTADOR <span class="bg-yellow-300 cl-blue-800 font-pp">1º mês grátis</span></a>
+                        <a onclick="$('#planos .planos').removeClass('active animated fadeIn'),$('#planos').removeClass('paddi'), $('#planos .planos-form').addClass('active animated fadeIn')" href="javascript:;" class="bt bg-green-200 cl-white font-s bt-1">TROCAR DE CONTADOR <span class="bg-yellow-300 cl-blue-800 font-pp">1º mês grátis</span></a>
+
                         <a href="javascript:;" class="cl-blue-800 font-s saiba f-weight-700">saiba mais sobre os serviços inclusos na mensalidade</a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row planos-form bg-forms bg-green-400">
+            <div class="col-md-12 col-lg-4 mb-none">
+                <img src="assets/img/contador/planos/image.png">
+            </div>
+            <div class="col-md-12 col-lg-8 form">
+                <p class="cl-white f-weight-700">
+                    1º passo para transferir sua<br class="mb-none" />
+                    contabilidade para a Contabilix.
+                </p>
+                <span class="font-s cl-white mb-center">Informe seus dados e traga a contabilidade da sua empresa</b></span>
+                <form class="row no-gutters">
+                    <label class="col-md-12 col-lg-12 ipt-full">
+                        <input class="cl-gray-300 font-s" type="text" name="nome" placeholder="Nome completo (não poderá ser alterado)">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="cpf" placeholder="CPF do responsável (não poderá ser alterado)">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="email" placeholder="E-mail">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="cnpj" placeholder="CNPJ da empresa">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="telefone" placeholder="Telefone">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="senha" placeholder="Crie sua senha">
+                    </label>
+                    <label class="col-md-12 col-lg-6">
+                        <input class="cl-gray-300 font-s" type="text" name="confirmar_senha" placeholder="Confirme sua senha">
+                    </label>
+                    <div class="col-md-12 col-lg-6" align="right">
+                        <a onclick="$('#planos .planos-form').removeClass('active animated fadeIn'), $('#planos .planos').addClass('active animated fadeIn'), $('#planos').addClass('paddi')" href="javascript:;" class="bt border-white cl-white font-s f-weight-700"><i class="fa fa-caret-left"></i> VOLTAR</a>
+                    </div>
+                    <div class="col-md-12 col-lg-6" align="left">
+                        <button class="bg-green-200 font-s cl-white f-weight-700 bt">TROCAR DE CONTADOR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        
+        
     </div>
 </div>
 
-<div id="contato" class="bg-gray-100">
+<div id="contato" class="bg-gray-100" style="display: none">
     <div class="content">
         <div class="row">
             <form class="col-md-12 col-lg-7">
@@ -342,4 +396,48 @@
 
 <?php include "partials/faq.phtml" ?>
 
+<div id="na-midia" class="bg-gray-100">
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 title-left" align="left">
+                <h2 class="font-g cl-gray-300 f-weight-400"><b>Na mídia</b> </h2>
+            </div>
+
+            <div class="col-lg-10 col-md-12 boxes owl-carousel owl-carousel-2 owl-theme">
+
+                <div class="box item">
+                    <img src="assets/img/home/midia/exame.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/infomoney1.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/estada.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/globo.svg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include "partials/footer.phtml" ?>
+
+<script type="text/javascript">
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+
+            var target = $(this.hash);
+
+            if (target.length) {
+                $('html, body').animate({ scrollTop: target.offset().top }, 1000);
+                return false;
+            }
+
+            $('header nav').toggleClass('active');
+
+        });
+    });
+</script>

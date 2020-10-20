@@ -93,5 +93,17 @@
     justify-content: center;
 }
 #servicos p{
-    margin: 50px 0 50px 0;
+    margin: 12px 0 25px 0;
+}
+#servicos .title{
+    margin-bottom: 35px;
+}
+#servicos .box{
+    padding: 15px 14px;
+}
+#servicos .box span{
+    font-size: 23px;
+}
+#servicos .box span.font-g{
+    font-size: 36px;
 }

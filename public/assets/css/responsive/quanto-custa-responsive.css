@@ -1,6 +1,6 @@
 @media (max-width: 750px){
     #calculadora {
-        padding: 30px 0 40px 0;
+        padding: 30px 0 40px 0 !important;
     }
     #quanto-custa{
         text-align: center !important;
@@ -14,5 +14,12 @@
     }
     .buttons a {
         padding: 27px 116px;
+    }
+    #calculadora{
+        display: inline-block;
+        height: auto !important;
+    }
+    #quanto-custa{
+        display: block;
     }
 }

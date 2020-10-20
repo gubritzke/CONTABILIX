@@ -35,6 +35,8 @@
 #banner .text-banner .buttons a{
 
     position: relative;
+
+    margin-right: 15px;
 }
 #banner .text-banner .buttons a span{
     position: absolute;
@@ -130,7 +132,7 @@
     margin-top: 50px;
 }
 #atendimento p{
-    margin-top: 35px;
+    margin-top: 15px;
 }
 #atendimento .box{
     width: 39%;
@@ -174,8 +176,8 @@
 }
 #atendimento .image2{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 94px;
+    left: 33px;
 }
 #como-funciona{
     text-align: center;
@@ -247,7 +249,6 @@
 }
 #como-funciona .pads{
     opacity: 0;
-    transition: 0.3s;
     height: 0;
 }
 #como-funciona .pads.active{
@@ -319,8 +320,9 @@
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
     background: #F6F6F6;
-    padding: 45px 40px 22px 69px;
+    padding: 45px 44px 22px 69px;
     position: relative;
+    margin-left: 4px;
 }
 #comentarios .boxes-comentarios .box > img{
     position: absolute;
@@ -328,9 +330,12 @@
     top: 30px;
     width: auto;
 }
-#comentarios .boxes-comentarios span{
+#comentarios .boxes-comentarios .box > span{
     display: flex;
     align-items: center;
+    position: absolute;
+    bottom: 19px;
+    width: 500px;
 }
 #comentarios .boxes-comentarios span img{
     margin-right: 15px;
@@ -383,41 +388,4 @@
 }
 #blog{
     margin-bottom: 45px;
-}
-#na-midia{
-    padding: 40px 0;
-}
-#na-midia .box{
-    background: #EBEBEB;
-    border: 1px solid #C8C8C8;
-    box-sizing: border-box;
-    border-radius: 9px;
-    height: 200px;
-    width: 316px;
-    display: flex;
-    justify-content: center;
-    margin-right: 21px;
-}
-#na-midia .box img{
-    display: inline-block;
-}
-#na-midia .title-left{
-    align-items: center;
-    display: flex;
-}
-#na-midia .title-left:after{
-    position: absolute;
-    bottom: 81px;
-}
-#na-midia .boxes{
-    width: 100%;
-}
-#na-midia .boxes .box{
-    float: left;
-}
-#na-midia .boxes .box img{
-    width: auto;
-}
-#na-midia .owl-theme .owl-nav{
-    display: none;
 }

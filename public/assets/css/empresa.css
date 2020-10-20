@@ -45,6 +45,7 @@
     bottom: -19px;
     padding: 0 14px;
     border-radius: 3px;
+    left: calc(50% - 33.55px);
 }
 #banner .text-banner .buttons a.bt-1 span{
     left: calc(50% - 33.55px);
@@ -61,6 +62,9 @@
 }
 #banner .foto-banner img{
     margin-top: 22px;
+}
+#banner .text-banner .buttons a:hover{
+    color: #00CA94;
 }
 #o-que-e{
     padding: 60px 0 0 0;
@@ -204,6 +208,7 @@
     background: #F6F6F6;
     padding: 45px 40px 22px 69px;
     position: relative;
+    margin-left: 4px;
 }
 #comentarios .boxes-comentarios .box > img{
     position: absolute;
@@ -242,10 +247,12 @@
     padding: 17px;
     border-radius: 8px;
 }
-#comentarios .box span{
+#comentarios .boxes-comentarios .box > span{
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    position: absolute;
+    bottom: 19px;
+    width: 500px;
 }
 #comentarios .box span img{
     margin-right: 10px;

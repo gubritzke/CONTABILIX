@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body.fixed{
+    overflow-y: hidden;
+}
 
 * {
     margin: 0;
@@ -13,16 +16,17 @@ a {
     font-size: 16px;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 16px;
     font-weight: 400;
     color: #000;
     overflow-x: hidden;
 }
-input, button, textarea {
-    font-family: 'Montserrat', sans-serif;
+input, button, textarea, select {
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 16px;
     font-weight: 400;
+    -webkit-appearance: none;
 }
 .content {
     box-sizing: border-box;
@@ -235,7 +239,7 @@ ul li{
 .title:after{
     content: "";
     width: 40px;
-    height: 5px;
+    height: 7px;
     background-color: #24B6F9;
     display: block;
     margin: 0 auto;
@@ -244,7 +248,7 @@ ul li{
 .title-left:after{
     content: "";
     width: 40px;
-    height: 5px;
+    height: 7px;
     background-color: #24B6F9;
     display: block;
     margin: 0 auto;
@@ -277,11 +281,15 @@ ul li{
 }
 #header .menu-desk ul li{
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 20px;
+}
+#header .menu-desk ul li:last-child{
+    margin-right: 0px;
 }
 #header .menu-right{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 #header .menu-right ul > li{
     position: relative;
@@ -305,6 +313,7 @@ ul li{
 #header .menu-right ul > li > ul > li{
     background: #fff;
     padding: 8px 0 8px 13px;
+    text-align: left;
 }
 #header .menu-right ul > li > ul > li:hover{
     background: #1EBC99;
@@ -419,7 +428,7 @@ ul li{
 }
 #faq .faqs .text.active {
     display: block;
-    height: 150px;
+    height: auto;
     opacity: 1;
     transition: 0.5s;
 }
@@ -481,7 +490,8 @@ ul li{
 }
 .calculadora .box-valor span{
     margin-bottom: 10px;
-    display: block;
+    margin-right: 14px;
+    display: inline-block;
 }
 .calculadora .box-valor p{
     margin: 0;
@@ -515,7 +525,7 @@ ul li{
     margin-bottom: 25px;
 }
 #calculadora .form-full{
-    padding: 15px 29px;
+    padding: 15px 45px;
 }
 .calculadora select option{
     padding: 15px 0;
@@ -551,22 +561,26 @@ footer{
     align-items: center;
     height: 100%;
 }
+#barra-fixa .left p{
+    margin: 0;
+}
 #barra-fixa .left img{
     margin-right: 15px;
 }
 #barra-fixa .center{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100%;
 }
 #barra-fixa .center a{
-    padding: 0 24px;
+    padding: 0 19px;
     height: 40px;
     line-height: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 17px;
 }
 #barra-fixa .center a img{
     margin-right: 10px;
@@ -576,11 +590,14 @@ footer{
     justify-content: center;
     align-items: center;
     height: 100%;
+    text-align: right;
 }
 #barra-fixa .right label{
     height: 40px;
-    width: 100%;
+    width: 91%;
     margin: 0;
+    display: flex;
+    margin-left: 38px;
 }
 
 #barra-fixa .right input{
@@ -602,6 +619,75 @@ footer{
     align-items: center;
     justify-content: center;
 }
+#calculadora .calc-info{
+    position: absolute;
+    right: -31px;
+    bottom: 25px;
+    border: 2px solid #3F3F3F;
+    color: #3F3F3F;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+#calculadora .ic-ipt{
+    position: absolute;
+    right: 15px;
+    bottom: 22px;
+}
+#comentarios .boxes-comentarios:after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 209px;
+    background: #EAEAEA;
+    right: 27px;
+    top: 21px;
+    border-radius: 16px;
+    z-index: -9;
+}
+#na-midia{
+    padding: 40px 0;
+}
+#na-midia .box{
+    background: #EBEBEB;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 9px;
+    height: 200px;
+    width: 316px;
+    display: flex;
+    justify-content: center;
+    margin-right: 21px;
+}
+#na-midia .box img{
+    display: inline-block;
+}
+#na-midia .title-left{
+    align-items: center;
+    display: flex;
+}
+#na-midia .title-left:after{
+    position: absolute;
+    bottom: 81px;
+}
+#na-midia .boxes{
+    width: 100%;
+}
+#na-midia .boxes .box{
+    float: left;
+}
+#na-midia .boxes .box img{
+    width: auto;
+}
+#na-midia .owl-theme .owl-nav{
+    display: none;
+}
+
 
 
 

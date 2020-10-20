@@ -107,7 +107,7 @@ $( function(){
 		var dataiframe = $(this).attr("data-iframe");
         
 		$.ajax({
-			url: '/modal.html',
+			url: '/modal-servicos.html',
 			success: function (row){
 				$('#modal-load').html( row )
 				$(".iframe").append(dataiframe);
@@ -124,7 +124,112 @@ $( function(){
 	});
 
 	// fecha - MODAL PORTFOLIO
-	$(document).on('click', '#modal-palestrante #close',  function(){
+	$(document).on('click', '#modal-palestrante .close-modal',  function(){
+		$('#modal-palestrante .content-modal').removeClass('slideInUp').addClass('slideOutDown');
+		setTimeout(function(){
+			$('#modal-palestrante .content-modal').hide(0).removeClass('animated slideOutDown');
+			$('#modal-palestrante').removeClass('fadeIn').addClass('fadeOut');
+			setTimeout(function(){
+				$('#modal-palestrante').hide(0).removeClass('animated fadeOut');
+				$('body').removeClass('no-scroll');
+			}, 200);
+		}, 200);
+	});
+
+
+
+	// abre - MODAL POLITICA
+	$('.politica').bind('click', function(){
+
+		var dataiframe = $(this).attr("data-iframe");
+
+		$.ajax({
+			url: '/modal-politica.html',
+			success: function (row){
+				$('#modal-load').html( row )
+				$(".iframe").append(dataiframe);
+
+				$('body').addClass('no-scroll');
+				$('#modal-palestrante').addClass('animated fadeIn').show(0);
+				setTimeout(function(){
+					$('#modal-palestrante .content-modal').addClass('animated slideInUp').show(0);
+				}, 200);
+
+			}
+		})
+
+	});
+
+	// abre - MODAL AGENDAR
+	$('.agendar-ligacao').bind('click', function(){
+
+		var dataiframe = $(this).attr("data-iframe");
+
+		$.ajax({
+			url: '/modal-agendar.html',
+			success: function (row){
+				$('#modal-load').html( row )
+				$(".iframe").append(dataiframe);
+
+				$('body').addClass('no-scroll');
+				$('#modal-palestrante').addClass('animated fadeIn').show(0);
+				setTimeout(function(){
+					$('#modal-palestrante .content-modal').addClass('animated slideInUp').show(0);
+				}, 200);
+
+			}
+		})
+
+	});
+
+	// abre - MODAL POLITICA
+	$('.termos').bind('click', function(){
+
+		var dataiframe = $(this).attr("data-iframe");
+
+		$.ajax({
+			url: '/modal-termos.html',
+			success: function (row){
+				$('#modal-load').html( row )
+				$(".iframe").append(dataiframe);
+
+				$('body').addClass('no-scroll');
+				$('#modal-palestrante').addClass('animated fadeIn').show(0);
+				setTimeout(function(){
+					$('#modal-palestrante .content-modal').addClass('animated slideInUp').show(0);
+				}, 200);
+
+			}
+		})
+
+	});
+
+
+	// abre - MODAL POLITICA
+	$('.calc-info').bind('click', function(){
+
+		var dataiframe = $(this).attr("data-iframe");
+
+		$.ajax({
+			url: '/modal-calculadora.html',
+			success: function (row){
+				$('#modal-load').html( row )
+				$(".iframe").append(dataiframe);
+
+				$('body').addClass('no-scroll');
+				$('#modal-palestrante').addClass('animated fadeIn').show(0);
+				setTimeout(function(){
+					$('#modal-palestrante .content-modal').addClass('animated slideInUp').show(0);
+				}, 200);
+
+			}
+		})
+
+	});
+
+
+	// fecha - MODAL POLITICA
+	$(document).on('click', '#modal-palestrante .close-modal',  function(){
 		$('#modal-palestrante .content-modal').removeClass('slideInUp').addClass('slideOutDown');
 		setTimeout(function(){
 			$('#modal-palestrante .content-modal').hide(0).removeClass('animated slideOutDown');

@@ -61,6 +61,9 @@
 #banner .foto-banner img{
     margin-top: 22px;
 }
+#banner .text-banner .buttons a:hover{
+    color: #00CA94;
+}
 #ajuda{
     display: block;
     margin-top: 59px;
@@ -160,15 +163,14 @@
     margin-top: 5px;
 }
 #planos .box-1{
-    margin-top: 45px;
     display: block;
     border-radius: 20px;
     height: 445px;
-    margin-bottom: -40px;
+    margin-bottom: 25px;
 }
 #planos .box-1 .text-box-1{
     text-align: center;
-    padding: 25px 100px;
+    padding: 25px 74px;
 }
 #planos .box-1 .text-box-1 p{
     margin-bottom: 0;
@@ -183,10 +185,10 @@
 }
 #planos .box-2{
     display: block;
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
     text-align: center;
-    padding: 32px 38px;
+    padding: 32px 25px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 }
 #planos .box-2 a{
@@ -242,4 +244,73 @@
     float: left;
     padding: 18px 50px;
     margin-top: -8px;
+}
+
+#planos .bg-forms{
+    padding: 30px 25px;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: -55px;
+}
+#planos .title{
+    margin-bottom: 55px;
+}
+#planos .bg-forms .form{
+    padding-left: 45px;
+}
+#planos .bg-forms p{
+    font-size: 30px;
+    margin: 0;
+    line-height: 36px;
+}
+#planos .bg-forms form{
+    margin-top: 35px;
+}
+#planos .bg-forms form label{
+    width: 97%;
+}
+#planos .bg-forms form label input{
+    width: 97%;
+    padding: 10px 0 10px 15px;
+    border: none;
+    margin-bottom: 5px;
+}
+#planos .bg-forms form label.ipt-full input{
+    width: 98.5%;
+}
+#planos .bg-forms a.bt{
+    margin-right: 10px;
+    padding: 0 0;
+    height: 42px;
+    display: flex;
+    width: 75%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#planos .bg-forms a.bt i{
+    margin-right: 20px;
+}
+#planos .bg-forms button{
+    padding: 0;
+    height: 42px;
+    width: 75%;
+}
+#planos .planos,
+#planos .bg-forms {
+    opacity: 0;
+    height: 0;
+}
+#planos .planos.active,
+#planos .bg-forms.active {
+    opacity: 1;
+    height: auto;
+}
+#planos.paddi{
+    padding: 0px 235px;
+}
+@media (max-width: 1260px){
+    #planos.paddi {
+        padding: 0;
+    }
 }

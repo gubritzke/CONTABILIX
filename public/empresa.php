@@ -23,10 +23,10 @@
 
 
                     <div class="buttons">
-                        <a href="javascript:;" class="bt bg-white cl-green-300 font-s">QUERO ABRIR MINHA EMPRESA</a>
+                        <a href="#formulario" class="bt bg-white cl-green-300 font-s">QUERO ABRIR MINHA EMPRESA<span class="bg-yellow-300 cl-blue-800 font-pp">grátis</span></a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 foto-banner mb-none">
+                <div class="col-lg-5 col-md-12 foto-banner">
                     <img src="assets/img/empresa/banner/image-1.png">
                 </div>
             </div>
@@ -104,6 +104,7 @@
                 </div>
             </div>
 
+            <img src="assets/img/home/como-funciona/arco-1.png" style="margin-bottom: 7px; margin-top: 35px" class="arrows arw2 desk-none">
             <div class="row pads pad-1 active no-gutters desk-none owl-carousel owl-carousel-1">
                 <div class="col-12">
                     <div class="box bx1 bg-white cl-gray-300">
@@ -135,6 +136,8 @@
                     </div>
                 </div>
             </div>
+            <img src="assets/img/home/como-funciona/arco-1.png" style="transform: rotatex(180deg); margin-left: 443px; margin-top: -42px;" class="arrows arw1 desk-none">
+
 
         </div>
     </div>
@@ -193,7 +196,7 @@
                 </div>
                 <div class="col-12 vantagens pads pad-1 active mb-none">
                     <div class="row">
-                        <div class="row col-8">
+                        <div class="row col-10">
                             <div class="col-md-12 col-lg-6">
                                 <div class="box bg-white">
                                     <span class="f-weight-700 cl-green-300">
@@ -278,7 +281,7 @@
                 </div>
 
 
-                <div class="col-12 boxes-comentarios owl-carousel owl-carousel-coments pads pad-2">
+                <div class="col-lg-8 col-md-12 boxes-comentarios owl-carousel owl-carousel-coments pads pad-2">
 
                     <div class="box" data-dot="<button><img src='assets/img/home/comentarios/image.svg' /></button>" >
                         <img class="detail1" src="assets/img/home/comentarios/aspas.svg">
@@ -294,30 +297,45 @@
                         </span>
                     </div>
 
-                    <div class="box" data-dot="<button><img src='assets/img/home/comentarios/image.svg' /></button>" >
+                    <div class="box" data-dot="<button><img src='assets/img/home/comentarios/foto-manoela.png' /></button>" >
                         <img class="detail1" src="assets/img/home/comentarios/aspas.svg">
                         <p class="font-s">
-                            Com certeza é uma nova forma de lidar com a contabilidade da minha empresa. O que gostaria de ressaltar foi quando precisei tirar dúvidas, os contadores foram muito atenciosos e didáticos. Obrigado, Contabilix
+                            Agora não esqueço mais nenhum pagamento. Adoro receber os avisos com as tarefas que preciso realizar, isso realmente faz diferença na correria da minha profissão.
+
                         </p>
                         <span>
-                            <img src="assets/img/home/comentarios/image.svg">
+                            <img src="assets/img/home/comentarios/foto-manoela.png">
                             <div class="font-s">
-                                <span class="cl-gray-300 italic f-weight-700">Jacob Serryua</span>
-                                <span class="cl-blue-300 f-weight-700">Controller Informática</span>
+                                <span class="cl-gray-300 italic f-weight-700">Manoela Maneschy</span>
+                                <span class="cl-blue-300 f-weight-700">Cardiologista</span>
                             </div>
                         </span>
                     </div>
 
-                    <div class="box" data-dot="<button><img src='assets/img/home/comentarios/image.svg' /></button>" >
+                    <div class="box" data-dot="<button><img src='assets/img/home/comentarios/foto-otavio.png' /></button>" >
                         <img class="detail1" src="assets/img/home/comentarios/aspas.svg">
                         <p class="font-s">
-                            Com certeza é uma nova forma de lidar com a contabilidade da minha empresa. O que gostaria de ressaltar foi quando precisei tirar dúvidas, os contadores foram muito atenciosos e didáticos. Obrigado, Contabilix
+                            A transferência para a Contabilix nos trouxe uma drástica redução nos custos e ainda tem sido bem mais fácil de resolver qualquer pendência. Indico pra todos
                         </p>
                         <span>
-                            <img src="assets/img/home/comentarios/image.svg">
+                            <img src="assets/img/home/comentarios/foto-otavio.png">
                             <div class="font-s">
-                                <span class="cl-gray-300 italic f-weight-700">Jacob Serryua</span>
-                                <span class="cl-blue-300 f-weight-700">Controller Informática</span>
+                                <span class="cl-gray-300 italic f-weight-700">Otávio Lima</span>
+                                <span class="cl-blue-300 f-weight-700">Net Suprimentos</span>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="box" data-dot="<button><img src='assets/img/home/comentarios/foto-fabio.png' /></button>" >
+                        <img class="detail1" src="assets/img/home/comentarios/aspas.svg">
+                        <p class="font-s">
+                            Utilizamos a Contabilix na nossa empresa para tomada de decisões e auxiliar no processo de gestão.
+                        </p>
+                        <span>
+                            <img src="assets/img/home/comentarios/foto-fabio.png">
+                            <div class="font-s">
+                                <span class="cl-gray-300 italic f-weight-700">Fábio Rodrigues</span>
+                                <span class="cl-blue-300 f-weight-700">Galleo Tecnologia</span>
                             </div>
                         </span>
                     </div>
@@ -331,4 +349,48 @@
 
 <?php include "partials/faq.phtml" ?>
 
+<div id="na-midia" class="bg-gray-100">
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 title-left" align="left">
+                <h2 class="font-g cl-gray-300 f-weight-400"><b>Na mídia</b> </h2>
+            </div>
+
+            <div class="col-lg-10 col-md-12 boxes owl-carousel owl-carousel-2 owl-theme">
+
+                <div class="box item">
+                    <img src="assets/img/home/midia/exame.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/infomoney1.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/estada.svg">
+                </div>
+                <div class="box item">
+                    <img src="assets/img/home/midia/globo.svg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include "partials/footer.phtml" ?>
+
+<script type="text/javascript">
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+
+            var target = $(this.hash);
+
+            if (target.length) {
+                $('html, body').animate({ scrollTop: target.offset().top }, 1000);
+                return false;
+            }
+
+            $('header nav').toggleClass('active');
+
+        });
+    });
+</script>
